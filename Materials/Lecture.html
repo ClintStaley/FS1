@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/default.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markdown-it-texmath/css/texmath.min.css">
+<link rel="stylesheet" href="file:///c:\Users\clint\.vscode\extensions\goessner.mdmath-2.7.4\themes\default\style.css">
+
+</head>
+<body class="markdown-body">
+<h1 dir="auto" id="fs-1-lecture-outline">FS 1 lecture outline</h1>
+<h2 dir="auto" id="syllabus">Syllabus</h2>
+<h3 dir="auto" id="goals-of-class">Goals of class</h3>
+<p dir="auto">• Demonstrate, by reasoning from physics principles, <em>intuitive understanding</em> of a variety of aspects of classic physics, e.g. kinematics, linear and rotational motion, forces, energy, collisions, gravitation, wave motion, and simple fluids.
+• Apply physics concepts to understanding practical areas such as aerospace, electrical power, transportation, communication and the environment.
+• Use physics concepts and approximate mathematical reasoning to gauge the accuracy of scientific or technological statements.
+• Apply the history of science and technology to understanding current issues in science and tech.
+• Use metric units directly and intuitively, not just by translation from SAE units</p>
+<h3 dir="auto" id="rules-of-note">Rules of Note</h3>
+<ul dir="auto">
+<li dir="auto">Quizzes and LLMStudies</li>
+<li dir="auto">HW levels and fully complete work</li>
+<li dir="auto">Wearing the badge!</li>
+</ul>
+<h3 dir="auto" id="units">Units</h3>
+<ul dir="auto">
+<li dir="auto">Metric universal outside US and in US science.</li>
+<li dir="auto">Use <em>intuitively</em>; I'll provide translation but we'll just &quot;talk in metric&quot; in class</li>
+<li dir="auto">meter (yard + 10%), kilogram (2.2lbs) (1L of water)</li>
+</ul>
+<h2 dir="auto" id="topic-1-motion">Topic 1 Motion</h2>
+<h3 dir="auto" id="motion-basics-distance-velocity-acceleration">Motion basics: distance, velocity, acceleration</h3>
+<ul dir="auto">
+<li dir="auto">
+<p dir="auto">Why motion?  Good basic physics.  Core of Newtonian Physics.  Challenge historically (Aristotle and violent vs natural motion) Example of precise mathematical understanding of a natural phenomenon.</p>
+</li>
+<li dir="auto">
+<p dir="auto">Basic concepts: Position, speed, (vs velocity), acceleration</p>
+<ul dir="auto">
+<li dir="auto">Units? (ask them: meters, meters/sec, meters/sec/sec or meters/sec^2)</li>
+<li dir="auto">Gut check: Running speed?  Car speed.  (Trick: m/s*9/4 = mph)</li>
+<li dir="auto">instantaneous vs average. If Joe runs 100m in 20 seconds, he averages 5 m/s.  Is that his speed the entire 20 seconds?</li>
+<li dir="auto">If we accelerate by 4 m/s^2 for 5 seconds, how fast are we going?
+<ul dir="auto">
+<li dir="auto">20 m/s or 45mph</li>
+</ul>
+</li>
+<li dir="auto">And, how <em>far</em> did we go?? 5s*20m/s = 100m??
+<ul dir="auto">
+<li dir="auto">no, because we averaged half that during the 5 s, so 50m</li>
+</ul>
+</li>
+<li dir="auto">How much acceleration <em>is</em> 4 m/s^2?  (Well, enough to go from 0 to 45 in 5s)</li>
+<li dir="auto">&quot;gravity&quot; is 9.807 m/s.  We'll use 9.8.  (Varies from 9.83 down to 9.76 -- why?)
+<ul dir="auto">
+<li dir="auto">Can measure acceleration in &quot;G&quot;s.</li>
+</ul>
+</li>
+<li dir="auto">Can position, speed, acceleration be negative?  What does that mean?
+<ul dir="auto">
+<li dir="auto">position before starting point</li>
+<li dir="auto">speed in opposite direction</li>
+<li dir="auto">deceleration</li>
+</ul>
+</li>
+</ul>
+</li>
+<li dir="auto">
+<p dir="auto">Drawing some exact graphs</p>
+<ul dir="auto">
+<li dir="auto">time across X axis, 0 to 8</li>
+<li dir="auto">Distance graphs
+<ul dir="auto">
+<li dir="auto">Steady V of 2 m/s</li>
+<li dir="auto">V of 3m/s for 2s, then steady, then backwards at 1 m/s</li>
+<li dir="auto">Sudden jump ?  Can we have instant change in distance?</li>
+</ul>
+</li>
+<li dir="auto">Velocity graphs
+<ul dir="auto">
+<li dir="auto">Steady acceleration of 4 m/s^2 for 5s</li>
+<li dir="auto">A of 2 m/s^2 for 2s, then level, then -1 m/s^s for 4s</li>
+<li dir="auto">Carry further out past 4s to get negative speed</li>
+<li dir="auto">Sudden jump possible?  Might seen so, but even an explosion involves some time.</li>
+</ul>
+</li>
+<li dir="auto">Relationship between distance and V graph
+<ul dir="auto">
+<li dir="auto">Use initial example and argue that distance is area under curve</li>
+<li dir="auto">Second example... Does height of level area matter?</li>
+<li dir="auto">What about negative speed?  Negative area below curve.</li>
+</ul>
+</li>
+<li dir="auto">Acceleration graphs
+<ul dir="auto">
+<li dir="auto">Steady A of 4 m/s^s for 5s, then zero</li>
+<li dir="auto">Instantaneous jump <em>is</em> possible!</li>
+<li dir="auto">Area under curve is v.</li>
+<li dir="auto">Second example. v runs up, then down, then negative</li>
+</ul>
+</li>
+<li dir="auto">All three in one
+<ul dir="auto">
+<li dir="auto">steady A of 1.5 m/s^2 for 8 s
+<ul dir="auto">
+<li dir="auto">V goes up to 12 from 0 (area under a curve)</li>
+<li dir="auto">D goes from 0 to 48, but what shape?  Suss this out.
+<ul dir="auto">
+<li dir="auto">Slope is steadily increasing..</li>
+<li dir="auto">At a given time t, v = at.  D under curve is triangle area (at) t</li>
+<li dir="auto">at^2/2</li>
+<li dir="auto">Try for t=4. v = 6, d = 12</li>
+<li dir="auto">d is parabola</li>
+</ul>
+</li>
+</ul>
+</li>
+<li dir="auto">Car moves through two lights and a speed limit change
+<ul dir="auto">
+<li dir="auto">30s in 5s</li>
+<li dir="auto">a is zero, but initial v is 15m/s.  A is zero for 5s, then -5 m/s^s for 3, then 0 for 10, then 3 m/s^2, then 0 for 5, then -3 m/s^2 for 2, then 0</li>
+<li dir="auto">distance is area under curve...</li>
+</ul>
+</li>
+<li dir="auto">Ball thrown up at 19.6m/s^2 for 1 s</li>
+</ul>
+</li>
+</ul>
+</li>
+<li dir="auto">
+<p dir="auto">Concept of surge, jerk, or jolt</p>
+<ul dir="auto">
+<li dir="auto">What units?</li>
+</ul>
+</li>
+<li dir="auto">
+<p dir="auto">Classic thought didn't really understand acceleration as a concept.</p>
+</li>
+</ul>
+<h3 dir="auto" id="mass-and-forces">Mass and Forces</h3>
+<ul dir="auto">
+<li dir="auto">Acceleration caused by forces.
+<ul dir="auto">
+<li dir="auto">car engine turning wheels; brakes slowing</li>
+<li dir="auto">hand pushing ball up; gravity pulling it down</li>
+</ul>
+</li>
+<li dir="auto">No force, no acceleration (Newton's first law)
+<ul dir="auto">
+<li dir="auto">But rolling car eventually slows down... ?</li>
+</ul>
+</li>
+<li dir="auto">But is that all?  A given force produces a certain acceleration?
+<ul dir="auto">
+<li dir="auto">Mass also matters</li>
+<li dir="auto">twice the force, twice the acceleration.  Twice the mass, half the a, etc.</li>
+<li dir="auto">f = ma (newtons second law)</li>
+<li dir="auto">or a = f/m</li>
+</ul>
+</li>
+<li dir="auto">Mass vs weight
+<ul dir="auto">
+<li dir="auto">Example of 1 MT car on ground and in space.</li>
+</ul>
+</li>
+<li dir="auto">KG is <em>mass</em>.  Only informally weight.  Exists on surface and in space</li>
+<li dir="auto">weight is a <em>force</em>.  How hard a thing pushes down on a scale.  Use of Kg this way is informal</li>
+<li dir="auto">Unit of force needed.  Enough to accelerate 1 kg, 1m/s^2</li>
+</ul>
+<h3 dir="auto" id="equal-and-opposite-forces">Equal and Opposite forces</h3>
+<ul dir="auto">
+<li dir="auto">Forces are <em>paired</em>
+- Example of a block sliding on ice. Example of a block sliding on a table with friction. Introduce Free Body Diagrams and net force. Modify F=ma to be for net force.
+<ul dir="auto">
+<li dir="auto">Mention, for the block on the table, what about gravity? Why doesn't it accelerate down? Idea of a normal or support force.</li>
+<li dir="auto">Ask them for various types of force. Do an example with, say, tension of a ball hanging on a string.</li>
+<li dir="auto">Go back to the block sliding on the table. Put in numbers. Calculate acceleration. Modify to a person pushing a block across the table at constant speed. Drill down on Newton's 1st law here.</li>
+<li dir="auto">What about angles? Talk about a sign suspended from two wires. Show the components. Ask them to calculate the tensions. Explain why the tension increases as the wire's angle wrt horizontal gets small.</li>
+<li dir="auto">Free Body Diagram worksheet - do some, leave the rest for homework.</li>
+<li dir="auto">Do an example with forces, like a train with couplings. Calculate the force in each coupling. Perhaps another with friction.</li>
+<li dir="auto">Ask what is actually happening with a force? Avoid gravity, and explain how tension, normal, applied force, etc (buoyancy if they mention it) are all at heart electrical repulsions.</li>
+<li dir="auto">Now switch to gravity. What is actually happening here? Talk about the weight force and the mass. Use outer space (or the space station, though there is weight there) to distinguish between these. Explain that two asteroids would attract each other (like with invisible ropes or something connecting all the atoms?) and the force would be  Then segue to someone on earth - it's the M, you're the m. Have them calculate  and get 9.8. Explain how the weight force, on Earth, is thus mg. Discuss what happens other places, like the Moon.</li>
+<li dir="auto">Mention the importance of Newton tying orbital motion together with forces on Earth. Even the normal force isn't obvious to a lot of people the first time they take physics - they say something like the table cancels the gravity or something.</li>
+<li dir="auto">Talk about free fall and why all objects fall, without air resistance, with a=g. Ask them whether two different balls will hit the table at the same time when they are dropped (they will, but a lot of them will say no). Use the equation to predict how long until a ball hits - have someone time it with their phone. It should work well. Mention Galileo and the Leaning Tower or Pisa (he demonstrated different objects all falling with g and, supposedly, people still didn't believe it). Ask, by the way, how they could prove a falling object is accelerating - just by sight, it's not obvious. They'll come up with ways, but ask, without a slow-motion camera? Galileo did it with sloped ramps and his pulse. Further, ask whether a can of lead shot or a can of feathers has different weights, different accelerations, or what?</li>
+<li dir="auto">Now talk about falling with air resistance. Draw the FBD of a heavy object and a light object, showing how the air resistance is a higher percentage of the weight force for the light object. Talk about terminal velocity. Ask what this depends on. What if v is greater than terminal velocity (skydiver who pulls his parachute).</li>
+<li dir="auto">If time remains, discuss the friction force. Static (on-demand) and kinetic (always the same, in theory). How it varies with weight, because of the normal force. An example where the normal force is not the weight (holding something against the wall, for example - push harder if it slips).</li>
+</ul>
+</li>
+</ul>
+<p dir="auto">Forces 2
+- Newton's 3rd law: if object A exerts a force on object B, then object B exerts an equal and opposite force on A. I start with &quot;Push wars,&quot; a game where 2 ppl stand an arms' length apart with their hands held out, and try to make the other lose his balance. They'll notice that you can't push on someone if they don't push back. Talk about pushing on the wall, walking, swimming, a car moving, etc. N3 is a fundamental property of forces that always seems to hold.
+- The problem with N3 is when the forces are equal and opposite, but not an N3 pair, like gravity and normal for a book sitting on the table. Discuss this. The opposite to the normal is the book pushing on the table, and the opposite to gravity is the book pulling on the Earth. I like to say, &quot;A on B, B on A&quot; for an N3 pair. A more complex example is a cheerleader standing on another's shoulders, or something.
+- Application to a car accelerating, if you had time to mention friction before (if not do it now). Talk about how the car is moving. Calculate the max acceleration on a dry day, as opposed to a wet day.
+- [If time] A more complex problem: block sliding down a ramp. Calculate acceleration.
+- Rotational motion and centripetal force. Ask them if a rotating object is accelerating. Does it have a constant velocity? So what's causing the acceleration? Well, it depends. Ask them for examples. Whirl a ball on a string, it's the tension. Car around a corner, friction. Planet, gravity.<br>
+- Show them that the centripetal acceleration has to equal v2/r for the object to move in a circle. I like using similar triangles on a small section of the motion (the angle between v0 and v1 is the same as the angle that the object moves through, in the limit, so by similar triangles, v*dt/r = dv/v and this dv/dt = v2/r). Talk about what happens if the acceleration is not exactly this.
+- Example of a car going around a corner. As a group, calculate the max speed that a car can have on a corner of radius 200m or something.
+- Banked curves and how they help - the inward component of the normal adds to the friction force to create the centripetal force
+- Rope swing - some of them will have done this (if not, it's a great central Texas activity, they should try it) and know you have to hang on super hard at the bottom of the swing. Draw a FBD, talk about why. Calculate the force for a typical rope swing, or do this in HW.
+- Gravity and orbits. Solve for v as a function of r. Discuss geosynchronous orbits.</p>
+<p dir="auto">Energy
+- Energy is an integral of a motion. Show how this works using</p>
+
+</body>
+</html>
