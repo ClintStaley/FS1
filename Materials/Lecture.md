@@ -77,29 +77,71 @@
  * Classic thought didn't really understand acceleration as a concept.
 
 ### Mass and Forces
- * Acceleration caused by forces.
+ * Now we deal with what *causes* acceleration -- forces.
    * car engine turning wheels; brakes slowing
    * hand pushing ball up; gravity pulling it down
- * No force, no acceleration (Newton's first law)
+ * Rule 1 (aka Newton's first law)
+   * No force, no acceleration
+   * Example of ball in free space moving at 20 m/s.  Will go foreve
    * But rolling car eventually slows down... ?
+      * What force causes that?
  * But is that all?  A given force produces a certain acceleration?
    * Mass also matters
    * twice the force, twice the acceleration.  Twice the mass, half the a, etc.
-   * f = ma (newtons second law) 
-   * or a = f/m
+   * a = f/m.  Newton's second law 
+   * or more commonly f = ma, but first form is better if you seek a
  * Mass vs weight
-   * Example of 1 MT car on ground and in space.
- * KG is *mass*.  Only informally weight.  Exists on surface and in space
- * weight is a *force*.  How hard a thing pushes down on a scale.  Use of Kg this way is informal
- * Unit of force needed.  Enough to accelerate 1 kg, 1m/s^2
-
+   * KG is *mass*.  Only informally weight.  Exists on surface and in space
+   * Example of 1 MT car on earth, on the moon (), on  and in space.
+ * Unit of force needed.  Enough to accelerate 1 kg by 1m/s^2 -- a newton.  Deck of cards on hand.
+   * So, with that definitions, how many newtons does a kg mass weigh?
+   * weight is a *force*.  How hard a thing pushes down on a scale.
+ * Most cases have multiple forces
+   * So, the f in a = f/m is a *sum* of relevant forces, added like vectors
+   * Bit of review on 2-D vector adding
+      * Vectors are pairs of numbers, like coord
+      * Just add the pairs
+      * Try a few examples
+ * Some examples of force situations
+   * Falling raindrop, forces balanced, no a
+   * Object in hand, forces balanced, no a
+   * Object being lifted or lowered in hand (forces briefly imbalanced -- causes a)
+   * Object being raised steadily (no a -- forces in balance)
+   * You in an express elevator, as it starts up, as it's moving, as it slows at top
+   * Two objects, one 1kg, one .001kg (one gram) falling in vacuum.
+     * Force on one is 9.8N, the other .0098N.  So, does the first accelerate more?
+        * No because mass and force are in exact proportion.  a is the same for each.
+        * 1kg requires 1000 times the force but gets it.
+     * Galileo first to understand this.  Famous Leaning Tower experiment
+     * https://www.youtube.com/watch?v=Oo8TaPVsn9Y
+   * Back to card deck being lifted
+     * What exact forces, assuming I increase it to .1 m/s up, in .5s?  
+     * (a is .2, m is .1kg, so total force f = ma is briefly .02N.  My hand presses with 1.02N)
+     * At top, opposite occurs and f of my hand is briefly .98N
+   * What if forces are in different directions?
+     * 1kg ball suspended by 45 degree cables....
+     * So, what do we intuitively expect on the cables?
+     * Seeing forces as right-angle vector components.  Equivalent
+     * Horizontal forces balance...
+     * Vertical forces must balance 9.8N
+     * Each is 4.9N if balanced
+     * 4.9/.707 = 6.93N.  Make intuitive sense??
+     * For simple case of 45 degrees, we have .707 in each direction (.707^2 = 1/2..)
+   * What about a 60 degree angle?  What do we expect, intuitively?
+     * Cos and sin review
+     * Breakdown of 1/2 and .866
+     * Need 4.9/(1/2) or full 9.8N on each
+   * Brief example of how to design a pin-truss
+   * Term "Free Body Diagram"
 ### Equal and Opposite forces
- * Forces are *paired*
-		- Example of a block sliding on ice. Example of a block sliding on a table with friction. Introduce Free Body Diagrams and net force. Modify F=ma to be for net force.
-	- Mention, for the block on the table, what about gravity? Why doesn't it accelerate down? Idea of a normal or support force. 
-	- Ask them for various types of force. Do an example with, say, tension of a ball hanging on a string.
-	- Go back to the block sliding on the table. Put in numbers. Calculate acceleration. Modify to a person pushing a block across the table at constant speed. Drill down on Newton's 1st law here.
-	- What about angles? Talk about a sign suspended from two wires. Show the components. Ask them to calculate the tensions. Explain why the tension increases as the wire's angle wrt horizontal gets small.
+ * When two objects put force on eachother -- it's two way.  (push exercise)
+ * Gravity is same -- two way
+ * General principle: forces are *paired*
+   * Newton's third law -- "Every action has an equal and opposite reaction"
+   * In card lifting, forces are two-way
+   * Raindrop pulls on Earth with opposite force, pushes back on air with opposite force
+   * In our sign, add forces at each point.
+		
 	- Free Body Diagram worksheet - do some, leave the rest for homework.
 	- Do an example with forces, like a train with couplings. Calculate the force in each coupling. Perhaps another with friction.
 	- Ask what is actually happening with a force? Avoid gravity, and explain how tension, normal, applied force, etc (buoyancy if they mention it) are all at heart electrical repulsions. 
