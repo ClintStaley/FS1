@@ -190,7 +190,8 @@
 </li>
 </ul>
 </li>
-<li dir="auto">Some examples of force situations
+</ul>
+<h4 dir="auto" id="examples-of-force-combinations-fbds">Examples of force combinations: FBDs</h4>
 <ul dir="auto">
 <li dir="auto">Falling raindrop, forces balanced, no a</li>
 <li dir="auto">Object in hand, forces balanced, no a</li>
@@ -237,48 +238,170 @@
 </li>
 <li dir="auto">Brief example of how to design a pin-truss</li>
 <li dir="auto">Term &quot;Free Body Diagram&quot;</li>
+<li dir="auto">Friction example w/ inclined plane
+<ul dir="auto">
+<li dir="auto">Draw FBD and see a force is missing if block is stable.  Would it be on ice?</li>
+<li dir="auto">Add friction force opposed to slide along surface</li>
+<li dir="auto">How friction works
+<ul dir="auto">
+<li dir="auto">Proportional to total normal force into surface</li>
+<li dir="auto">Same Newtons no matter how fast the slide</li>
+<li dir="auto">Interestingly, not proportional to area of contact.  Why?
+<ul dir="auto">
+<li dir="auto">Normal force is spread over the area.</li>
+<li dir="auto">Twice the area with half the force per area is the same</li>
+</ul>
+</li>
+<li dir="auto">Two forms:
+<ul dir="auto">
+<li dir="auto">static (&quot;stick&quot; force matches other lateral forces up to breaking point)</li>
+<li dir="auto">kinetic (while sliding)</li>
+</ul>
+</li>
+<li dir="auto">Thus N (of side force)/N (of normal force) -- unitless ratio &quot;coefficient of friction&quot;</li>
+<li dir="auto">Can be .1/.02 for ice on ice; .65/.4 for steel on steel
+<ul dir="auto">
+<li dir="auto">1kg steel block on steel surface ?? (6.5N to break loose, 4N to keep going)</li>
+<li dir="auto">100kg block on ice? 10N to start; 2N to maintain.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li dir="auto">Analyze block and ramp
+<ul dir="auto">
+<li dir="auto">assume steel on steel.  What angle &quot;breaks&quot; the stick?</li>
+<li dir="auto">angle of ramp is angle of g to normal, by swinging arg.</li>
+<li dir="auto">Down-ramp force is .65 of normal.
+<ul dir="auto">
+<li dir="auto">Make a guess.... &lt;&gt; 45 degrees?</li>
+<li dir="auto">maybe 30 degrees? Normal is <eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>c</mi><mi>o</mi><mi>s</mi><mo stretchy="false">(</mo><mi>t</mi><mi>h</mi><mi>e</mi><mi>t</mi><mi>a</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">cos(theta)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">cos</span><span class="mopen">(</span><span class="mord mathnormal">t</span><span class="mord mathnormal">h</span><span class="mord mathnormal">e</span><span class="mord mathnormal">t</span><span class="mord mathnormal">a</span><span class="mclose">)</span></span></span></span></eq> Down-ramp is <eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>s</mi><mi>i</mi><mi>n</mi><mo stretchy="false">(</mo><mi>θ</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">sin(\theta)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">s</span><span class="mord mathnormal">in</span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span><span class="mclose">)</span></span></span></span></eq>
+<ul dir="auto">
+<li dir="auto">.5/.866 = .577</li>
+</ul>
+</li>
+<li dir="auto">what angle then? No need for actual force! <eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>s</mi><mi>i</mi><mi>n</mi><mo stretchy="false">(</mo><mi>θ</mi><mo stretchy="false">)</mo><mi mathvariant="normal">/</mi><mi>c</mi><mi>o</mi><mi>s</mi><mo stretchy="false">(</mo><mi>θ</mi><mo stretchy="false">)</mo><mo>=</mo><mi mathvariant="normal">.</mi><mn>65</mn></mrow><annotation encoding="application/x-tex">sin(\theta)/cos(\theta) = .65</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">s</span><span class="mord mathnormal">in</span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span><span class="mclose">)</span><span class="mord">/</span><span class="mord mathnormal">cos</span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">.65</span></span></span></span></eq></li>
+<li dir="auto">sin/cos is tan, so <eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi><mi>a</mi><msup><mi>n</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo stretchy="false">(</mo><mi mathvariant="normal">.</mi><mn>65</mn><mo stretchy="false">)</mo><mo>≈</mo><mn>33</mn><mi mathvariant="normal">°</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">tan^{-1}(.65)\approx33\degree)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="mord mathnormal">t</span><span class="mord mathnormal">a</span><span class="mord"><span class="mord mathnormal">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord">.65</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">33°</span><span class="mclose">)</span></span></span></span></eq></li>
+</ul>
+</li>
+<li dir="auto">Good example of type of calc done in intro ME</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 <h3 dir="auto" id="equal-and-opposite-forces">Equal and Opposite forces</h3>
 <ul dir="auto">
-<li dir="auto">
-<p dir="auto">When two objects put force on eachother -- it's two way.  (push exercise)</p>
-</li>
-<li dir="auto">
-<p dir="auto">Gravity is same -- two way</p>
-</li>
-<li dir="auto">
-<p dir="auto">General principle: forces are <em>paired</em></p>
-<ul dir="auto">
+<li dir="auto">When two objects put force on each other -- it's two way.  (push exercise)</li>
+<li dir="auto">Gravity is same -- two way</li>
+<li dir="auto">General principle: forces are <em>paired</em></li>
 <li dir="auto">Newton's third law -- &quot;Every action has an equal and opposite reaction&quot;</li>
-<li dir="auto">In card lifting, forces are two-way</li>
-<li dir="auto">Raindrop pulls on Earth with opposite force, pushes back on air with opposite force</li>
-<li dir="auto">In our sign, add forces at each point.</li>
-</ul>
+<li dir="auto">Show force pairs in all our examples</li>
+<li dir="auto">Deck of cards lift.
 <ul dir="auto">
-<li dir="auto">Free Body Diagram worksheet - do some, leave the rest for homework.</li>
-<li dir="auto">Do an example with forces, like a train with couplings. Calculate the force in each coupling. Perhaps another with friction.</li>
-<li dir="auto">Ask what is actually happening with a force? Avoid gravity, and explain how tension, normal, applied force, etc (buoyancy if they mention it) are all at heart electrical repulsions.</li>
-<li dir="auto">Now switch to gravity. What is actually happening here? Talk about the weight force and the mass. Use outer space (or the space station, though there is weight there) to distinguish between these. Explain that two asteroids would attract each other (like with invisible ropes or something connecting all the atoms?) and the force would be  Then segue to someone on earth - it's the M, you're the m. Have them calculate  and get 9.8. Explain how the weight force, on Earth, is thus mg. Discuss what happens other places, like the Moon.</li>
-<li dir="auto">Mention the importance of Newton tying orbital motion together with forces on Earth. Even the normal force isn't obvious to a lot of people the first time they take physics - they say something like the table cancels the gravity or something.</li>
-<li dir="auto">Talk about free fall and why all objects fall, without air resistance, with a=g. Ask them whether two different balls will hit the table at the same time when they are dropped (they will, but a lot of them will say no). Use the equation to predict how long until a ball hits - have someone time it with their phone. It should work well. Mention Galileo and the Leaning Tower or Pisa (he demonstrated different objects all falling with g and, supposedly, people still didn't believe it). Ask, by the way, how they could prove a falling object is accelerating - just by sight, it's not obvious. They'll come up with ways, but ask, without a slow-motion camera? Galileo did it with sloped ramps and his pulse. Further, ask whether a can of lead shot or a can of feathers has different weights, different accelerations, or what?</li>
-<li dir="auto">Now talk about falling with air resistance. Draw the FBD of a heavy object and a light object, showing how the air resistance is a higher percentage of the weight force for the light object. Talk about terminal velocity. Ask what this depends on. What if v is greater than terminal velocity (skydiver who pulls his parachute).</li>
-<li dir="auto">If time remains, discuss the friction force. Static (on-demand) and kinetic (always the same, in theory). How it varies with weight, because of the normal force. An example where the normal force is not the weight (holding something against the wall, for example - push harder if it slips).</li>
+<li dir="auto">Hand&lt;-&gt;deck obvious pair</li>
+<li dir="auto">Earth&lt;-&gt;deck ?? (deck pulls on Earth too)</li>
+</ul>
+</li>
+<li dir="auto">Raindrop fall
+<ul dir="auto">
+<li dir="auto">gravity is now dual</li>
+<li dir="auto">air resistance ?? (drop pushes on air)</li>
+</ul>
+</li>
+<li dir="auto">Hanging ball
+<ul dir="auto">
+<li dir="auto">gravity dual</li>
+<li dir="auto">ball pulls on cables and vice versa</li>
+<li dir="auto">cables pull on anchors</li>
+<li dir="auto">anchor horizontal pulls balance</li>
+<li dir="auto">vertical pulls on supports balance push on Earth</li>
+</ul>
+</li>
+<li dir="auto">Sliding block
+<ul dir="auto">
+<li dir="auto">Friction pulls slide (which itself has friction on table)
+<ul dir="auto">
+<li dir="auto">What would happen with very heavy block and slippery slide ?? (slide goes right)</li>
+</ul>
+</li>
+<li dir="auto">Normal force balance; gravity balance.</li>
+<li dir="auto">Force of table &lt;-&gt; ramp</li>
 </ul>
 </li>
 </ul>
-<p dir="auto">Forces 2
-- Newton's 3rd law: if object A exerts a force on object B, then object B exerts an equal and opposite force on A. I start with &quot;Push wars,&quot; a game where 2 ppl stand an arms' length apart with their hands held out, and try to make the other lose his balance. They'll notice that you can't push on someone if they don't push back. Talk about pushing on the wall, walking, swimming, a car moving, etc. N3 is a fundamental property of forces that always seems to hold.
-- The problem with N3 is when the forces are equal and opposite, but not an N3 pair, like gravity and normal for a book sitting on the table. Discuss this. The opposite to the normal is the book pushing on the table, and the opposite to gravity is the book pulling on the Earth. I like to say, &quot;A on B, B on A&quot; for an N3 pair. A more complex example is a cheerleader standing on another's shoulders, or something.
-- Application to a car accelerating, if you had time to mention friction before (if not do it now). Talk about how the car is moving. Calculate the max acceleration on a dry day, as opposed to a wet day.
-- [If time] A more complex problem: block sliding down a ramp. Calculate acceleration.
-- Rotational motion and centripetal force. Ask them if a rotating object is accelerating. Does it have a constant velocity? So what's causing the acceleration? Well, it depends. Ask them for examples. Whirl a ball on a string, it's the tension. Car around a corner, friction. Planet, gravity.<br>
-- Show them that the centripetal acceleration has to equal v2/r for the object to move in a circle. I like using similar triangles on a small section of the motion (the angle between v0 and v1 is the same as the angle that the object moves through, in the limit, so by similar triangles, v*dt/r = dv/v and this dv/dt = v2/r). Talk about what happens if the acceleration is not exactly this.
-- Example of a car going around a corner. As a group, calculate the max speed that a car can have on a corner of radius 200m or something.
-- Banked curves and how they help - the inward component of the normal adds to the friction force to create the centripetal force
-- Rope swing - some of them will have done this (if not, it's a great central Texas activity, they should try it) and know you have to hang on super hard at the bottom of the swing. Draw a FBD, talk about why. Calculate the force for a typical rope swing, or do this in HW.
-- Gravity and orbits. Solve for v as a function of r. Discuss geosynchronous orbits.</p>
+<h3 dir="auto" id="underlying-laws-for-balanced-forces">Underlying laws for balanced forces</h3>
+<ul dir="auto">
+<li dir="auto">Gravity
+<ul dir="auto">
+<li dir="auto"><eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi><mo>=</mo><mi>G</mi><mfrac><mrow><msub><mi>m</mi><mn>1</mn></msub><msub><mi>m</mi><mn>2</mn></msub></mrow><msup><mi>r</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding="application/x-tex">F = G\frac{m_1m_2}{r^2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.056492em;vertical-align:-0.345em;"></span><span class="mord mathnormal">G</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.7114919999999999em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7463142857142857em;"><span style="top:-2.786em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4101em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span><span class="mord mtight"><span class="mord mathnormal mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></eq> where <eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi><mo>=</mo><mn>6.67</mn><mi>x</mi><mn>1</mn><msup><mn>0</mn><mrow><mo>−</mo><mn>11</mn></mrow></msup></mrow><annotation encoding="application/x-tex">G = 6.67 x 10^{-11}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal">G</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord">6.67</span><span class="mord mathnormal">x</span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">11</span></span></span></span></span></span></span></span></span></span></span></span></eq></li>
+<li dir="auto">OK, and we know that g is 9.8.  Try it out for a 100kg mass
+<ul dir="auto">
+<li dir="auto"><eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>980</mn><mo>=</mo><mn>6.67</mn><mi>x</mi><mn>1</mn><msup><mn>0</mn><mrow><mo>−</mo><mn>11</mn></mrow></msup><mfrac><mrow><mn>100</mn><msub><mi>m</mi><mn>2</mn></msub></mrow><mrow><mo stretchy="false">(</mo><mn>6.38</mn><mi>x</mi><mn>1</mn><msup><mn>0</mn><mn>6</mn></msup><msup><mo stretchy="false">)</mo><mn>2</mn></msup></mrow></mfrac></mrow><annotation encoding="application/x-tex">980 = 6.67 x 10^{-11}\frac{100 m_2}{(6.38x10^6)^2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">980</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.381208em;vertical-align:-0.52em;"></span><span class="mord">6.67</span><span class="mord mathnormal">x</span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">11</span></span></span></span></span></span></span></span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8612079999999999em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mopen mtight">(</span><span class="mord mtight">6.38</span><span class="mord mathnormal mtight">x</span><span class="mord mtight">1</span><span class="mord mtight"><span class="mord mtight">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7463142857142857em;"><span style="top:-2.786em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">6</span></span></span></span></span></span></span></span><span class="mclose mtight"><span class="mclose mtight">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7463142857142857em;"><span style="top:-2.786em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4101em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">100</span><span class="mord mtight"><span class="mord mathnormal mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.52em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></eq></li>
+<li dir="auto">m2 = ?  (5.98 x 10^24 kg)</li>
+<li dir="auto">Remarkable that we can do this.  Will do for moon and sun after we have a bit more physics</li>
+<li dir="auto">If you are in orbit 500km up, what's g then?
+<ul dir="auto">
+<li dir="auto">No need for full computation -- it's inverse proportional to r, yes?</li>
+<li dir="auto">R ratio is 6.38/6.88 or .927.  Squared is approx .86</li>
+</ul>
+</li>
+<li dir="auto">What is g at 1 earth radius up?</li>
+</ul>
+</li>
+<li dir="auto">Universal attraction: every particle against every other.  Moon is pulled by and pulls Earth, but also Sun, (and Jupiter, venus, etc.)</li>
+<li dir="auto">Newton and apple story: fact vs legend</li>
+<li dir="auto">Newton and brachistochrone</li>
+<li dir="auto">Same pattern for electric forces
+<ul dir="auto">
+<li dir="auto">Now positive and negative attract, like repel.</li>
+<li dir="auto">Fundamental charge is that of electron or proton</li>
+<li dir="auto">But, we use &quot;Coulombs&quot;, which is like a &quot;kg&quot; -- 6 x10^18 electrons.</li>
+<li dir="auto">Amount of free electrons in grain of sand copper, or in half a second of electricity in a house wire.</li>
+<li dir="auto">And, the constant is: 9x10^9.  Notice a difference?</li>
+<li dir="auto">One coulomb imbalance at 1000m distance is 9x10^9/1000^2 = 9x10^3 or 9 metric tons.</li>
+</ul>
+</li>
+<li dir="auto">contact forces are repelling electrons, basically</li>
+</ul>
+</li>
+</ul>
+<h3 dir="auto" id="force-perpendicular-to-the-velocity">Force perpendicular to the velocity</h3>
+<ul dir="auto">
+<li dir="auto">
+<p dir="auto">Velocity is also a vector.  Force applied to v is not always collinear.</p>
+</li>
+<li dir="auto">
+<p dir="auto">Spin weight around.</p>
+</li>
+<li dir="auto">
+<p dir="auto">Change that results from acceleration in magnitude equal to force once (3 m/s, acc of 3 m/s^2 at right angles)</p>
+<ul dir="auto">
+<li dir="auto">Turn of radian per second.</li>
+</ul>
+</li>
+<li dir="auto">
+<p dir="auto">Making an object follow a circle at v requires how many R/s?</p>
+<ul dir="auto">
+<li dir="auto">V/r</li>
+</ul>
+</li>
+<li dir="auto">
+<p dir="auto">So, need acceleration of magnitude <eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>v</mi><mo>∗</mo><mi>v</mi><mi mathvariant="normal">/</mi><mi>r</mi><mo>=</mo><mfrac><msup><mi>v</mi><mn>2</mn></msup><mi>r</mi></mfrac></mrow><annotation encoding="application/x-tex">v * v/r = \frac{v^2}{r}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.46528em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mord">/</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.36292em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.01792em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8913142857142857em;"><span style="top:-2.931em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></eq></p>
+</li>
+<li dir="auto">
+<p dir="auto">Intuition</p>
+<ul dir="auto">
+<li dir="auto">r in denominator because larger r requires fewer R/s</li>
+<li dir="auto">V squared because twice the v requires twice the R/s and twice the a to turn it.</li>
+</ul>
+<ul dir="auto">
+<li dir="auto">Example of a car going around a corner. As a group, calculate the max speed that a car can have on a corner of radius 200m or something.</li>
+<li dir="auto">Banked curves and how they help - the inward component of the normal adds to the friction force to create the centripetal force</li>
+<li dir="auto">Rope swing - some of them will have done this (if not, it's a great central Texas activity, they should try it) and know you have to hang on super hard at the bottom of the swing. Draw a FBD, talk about why. Calculate the force for a typical rope swing, or do this in HW.</li>
+<li dir="auto">Gravity and orbits. Solve for v as a function of r. Discuss geosynchronous orbits.</li>
+</ul>
+</li>
+</ul>
 <p dir="auto">Energy
 - Energy is an integral of a motion. Show how this works using</p>
 

@@ -18,7 +18,6 @@
    * Use *intuitively*; I'll provide translation but we'll just "talk in metric" in class
    * meter (yard + 10%), kilogram (2.2lbs) (1L of water)
 
-
 ## Topic 1 Motion
 ### Motion basics: distance, velocity, acceleration
  * Why motion?  Good basic physics.  Core of Newtonian Physics.  Challenge historically (Aristotle and violent vs natural motion) Example of precise mathematical understanding of a natural phenomenon.
@@ -102,62 +101,124 @@
       * Vectors are pairs of numbers, like coord
       * Just add the pairs
       * Try a few examples
- * Some examples of force situations
-   * Falling raindrop, forces balanced, no a
-   * Object in hand, forces balanced, no a
-   * Object being lifted or lowered in hand (forces briefly imbalanced -- causes a)
-   * Object being raised steadily (no a -- forces in balance)
-   * You in an express elevator, as it starts up, as it's moving, as it slows at top
-   * Two objects, one 1kg, one .001kg (one gram) falling in vacuum.
-     * Force on one is 9.8N, the other .0098N.  So, does the first accelerate more?
-        * No because mass and force are in exact proportion.  a is the same for each.
-        * 1kg requires 1000 times the force but gets it.
-     * Galileo first to understand this.  Famous Leaning Tower experiment
-     * https://www.youtube.com/watch?v=Oo8TaPVsn9Y
-   * Back to card deck being lifted
-     * What exact forces, assuming I increase it to .1 m/s up, in .5s?  
-     * (a is .2, m is .1kg, so total force f = ma is briefly .02N.  My hand presses with 1.02N)
-     * At top, opposite occurs and f of my hand is briefly .98N
-   * What if forces are in different directions?
-     * 1kg ball suspended by 45 degree cables....
-     * So, what do we intuitively expect on the cables?
-     * Seeing forces as right-angle vector components.  Equivalent
-     * Horizontal forces balance...
-     * Vertical forces must balance 9.8N
-     * Each is 4.9N if balanced
-     * 4.9/.707 = 6.93N.  Make intuitive sense??
-     * For simple case of 45 degrees, we have .707 in each direction (.707^2 = 1/2..)
-   * What about a 60 degree angle?  What do we expect, intuitively?
-     * Cos and sin review
-     * Breakdown of 1/2 and .866
-     * Need 4.9/(1/2) or full 9.8N on each
-   * Brief example of how to design a pin-truss
-   * Term "Free Body Diagram"
-### Equal and Opposite forces
- * When two objects put force on eachother -- it's two way.  (push exercise)
- * Gravity is same -- two way
- * General principle: forces are *paired*
-   * Newton's third law -- "Every action has an equal and opposite reaction"
-   * In card lifting, forces are two-way
-   * Raindrop pulls on Earth with opposite force, pushes back on air with opposite force
-   * In our sign, add forces at each point.
-		
-	- Free Body Diagram worksheet - do some, leave the rest for homework.
-	- Do an example with forces, like a train with couplings. Calculate the force in each coupling. Perhaps another with friction.
-	- Ask what is actually happening with a force? Avoid gravity, and explain how tension, normal, applied force, etc (buoyancy if they mention it) are all at heart electrical repulsions. 
-	- Now switch to gravity. What is actually happening here? Talk about the weight force and the mass. Use outer space (or the space station, though there is weight there) to distinguish between these. Explain that two asteroids would attract each other (like with invisible ropes or something connecting all the atoms?) and the force would be  Then segue to someone on earth - it's the M, you're the m. Have them calculate  and get 9.8. Explain how the weight force, on Earth, is thus mg. Discuss what happens other places, like the Moon.
-	- Mention the importance of Newton tying orbital motion together with forces on Earth. Even the normal force isn't obvious to a lot of people the first time they take physics - they say something like the table cancels the gravity or something. 
-	- Talk about free fall and why all objects fall, without air resistance, with a=g. Ask them whether two different balls will hit the table at the same time when they are dropped (they will, but a lot of them will say no). Use the equation to predict how long until a ball hits - have someone time it with their phone. It should work well. Mention Galileo and the Leaning Tower or Pisa (he demonstrated different objects all falling with g and, supposedly, people still didn't believe it). Ask, by the way, how they could prove a falling object is accelerating - just by sight, it's not obvious. They'll come up with ways, but ask, without a slow-motion camera? Galileo did it with sloped ramps and his pulse. Further, ask whether a can of lead shot or a can of feathers has different weights, different accelerations, or what?  
-	- Now talk about falling with air resistance. Draw the FBD of a heavy object and a light object, showing how the air resistance is a higher percentage of the weight force for the light object. Talk about terminal velocity. Ask what this depends on. What if v is greater than terminal velocity (skydiver who pulls his parachute).
-	- If time remains, discuss the friction force. Static (on-demand) and kinetic (always the same, in theory). How it varies with weight, because of the normal force. An example where the normal force is not the weight (holding something against the wall, for example - push harder if it slips).
 
-Forces 2
-	- Newton's 3rd law: if object A exerts a force on object B, then object B exerts an equal and opposite force on A. I start with "Push wars," a game where 2 ppl stand an arms' length apart with their hands held out, and try to make the other lose his balance. They'll notice that you can't push on someone if they don't push back. Talk about pushing on the wall, walking, swimming, a car moving, etc. N3 is a fundamental property of forces that always seems to hold.
-	- The problem with N3 is when the forces are equal and opposite, but not an N3 pair, like gravity and normal for a book sitting on the table. Discuss this. The opposite to the normal is the book pushing on the table, and the opposite to gravity is the book pulling on the Earth. I like to say, "A on B, B on A" for an N3 pair. A more complex example is a cheerleader standing on another's shoulders, or something.
-	- Application to a car accelerating, if you had time to mention friction before (if not do it now). Talk about how the car is moving. Calculate the max acceleration on a dry day, as opposed to a wet day. 
-	- [If time] A more complex problem: block sliding down a ramp. Calculate acceleration.
-	- Rotational motion and centripetal force. Ask them if a rotating object is accelerating. Does it have a constant velocity? So what's causing the acceleration? Well, it depends. Ask them for examples. Whirl a ball on a string, it's the tension. Car around a corner, friction. Planet, gravity.   
-	- Show them that the centripetal acceleration has to equal v2/r for the object to move in a circle. I like using similar triangles on a small section of the motion (the angle between v0 and v1 is the same as the angle that the object moves through, in the limit, so by similar triangles, v*dt/r = dv/v and this dv/dt = v2/r). Talk about what happens if the acceleration is not exactly this. 
+#### Examples of force combinations: FBDs
+* Falling raindrop, forces balanced, no a
+* Object in hand, forces balanced, no a
+* Object being lifted or lowered in hand (forces briefly imbalanced -- causes a)
+* Object being raised steadily (no a -- forces in balance)
+* You in an express elevator, as it starts up, as it's moving, as it slows at top
+* Two objects, one 1kg, one .001kg (one gram) falling in vacuum.
+   * Force on one is 9.8N, the other .0098N.  So, does the first accelerate more?
+      * No because mass and force are in exact proportion.  a is the same for each.
+      * 1kg requires 1000 times the force but gets it.
+   * Galileo first to understand this.  Famous Leaning Tower experiment
+   * https://www.youtube.com/watch?v=Oo8TaPVsn9Y
+* Back to card deck being lifted
+   * What exact forces, assuming I increase it to .1 m/s up, in .5s?  
+   * (a is .2, m is .1kg, so total force f = ma is briefly .02N.  My hand presses with 1.02N)
+   * At top, opposite occurs and f of my hand is briefly .98N
+* What if forces are in different directions?
+   * 1kg ball suspended by 45 degree cables....
+   * So, what do we intuitively expect on the cables?
+   * Seeing forces as right-angle vector components.  Equivalent
+   * Horizontal forces balance...
+   * Vertical forces must balance 9.8N
+   * Each is 4.9N if balanced
+   * 4.9/.707 = 6.93N.  Make intuitive sense??
+   * For simple case of 45 degrees, we have .707 in each direction (.707^2 = 1/2..)
+* What about a 60 degree angle?  What do we expect, intuitively?
+   * Cos and sin review
+   * Breakdown of 1/2 and .866
+   * Need 4.9/(1/2) or full 9.8N on each
+* Brief example of how to design a pin-truss
+* Term "Free Body Diagram"
+* Friction example w/ inclined plane
+   * Draw FBD and see a force is missing if block is stable.  Would it be on ice?
+   * Add friction force opposed to slide along surface
+   * How friction works
+      * Proportional to total normal force into surface
+      * Same Newtons no matter how fast the slide
+      * Interestingly, not proportional to area of contact.  Why?
+         * Normal force is spread over the area.
+         * Twice the area with half the force per area is the same
+      * Two forms: 
+         * static ("stick" force matches other lateral forces up to breaking point)
+         * kinetic (while sliding)
+      * Thus N (of side force)/N (of normal force) -- unitless ratio "coefficient of friction"
+      * Can be .1/.02 for ice on ice; .65/.4 for steel on steel
+         * 1kg steel block on steel surface ?? (6.5N to break loose, 4N to keep going)
+         * 100kg block on ice? 10N to start; 2N to maintain.
+   * Analyze block and ramp
+      * assume steel on steel.  What angle "breaks" the stick?
+      * angle of ramp is angle of g to normal, by swinging arg.
+      * Down-ramp force is .65 of normal.
+         * Make a guess.... <> 45 degrees?
+         * maybe 30 degrees? Normal is $cos(theta)$ Down-ramp is $sin(\theta)$
+            * .5/.866 = .577
+         * what angle then? No need for actual force! $sin(\theta)/cos(\theta) = .65$
+         * sin/cos is tan, so $tan^{-1}(.65)\approx33\degree)$
+      * Good example of type of calc done in intro ME
+
+### Equal and Opposite forces
+* When two objects put force on each other -- it's two way.  (push exercise)
+* Gravity is same -- two way
+* General principle: forces are *paired*
+* Newton's third law -- "Every action has an equal and opposite reaction"
+* Show force pairs in all our examples
+* Deck of cards lift.  
+   - Hand<->deck obvious pair
+   - Earth<->deck ?? (deck pulls on Earth too)
+* Raindrop fall
+   - gravity is now dual
+   - air resistance ?? (drop pushes on air)
+* Hanging ball
+   - gravity dual
+   - ball pulls on cables and vice versa
+   - cables pull on anchors
+   - anchor horizontal pulls balance
+   - vertical pulls on supports balance push on Earth
+* Sliding block
+   - Friction pulls slide (which itself has friction on table)
+      - What would happen with very heavy block and slippery slide ?? (slide goes right)
+   - Normal force balance; gravity balance.  
+   - Force of table <-> ramp
+
+### Underlying laws for balanced forces
+* Gravity
+   - $F = G\frac{m_1m_2}{r^2}$ where $G = 6.67 x 10^{-11}$
+   - OK, and we know that g is 9.8.  Try it out for a 100kg mass
+      - $980 = 6.67 x 10^{-11}\frac{100 m_2}{(6.38x10^6)^2}$ 
+      - m2 = ?  (5.98 x 10^24 kg)
+      - Remarkable that we can do this.  Will do for moon and sun after we have a bit more physics
+      - If you are in orbit 500km up, what's g then? 
+         - No need for full computation -- it's inverse proportional to r, yes?  
+         - R ratio is 6.38/6.88 or .927.  Squared is approx .86  
+      - What is g at 1 earth radius up?
+   - Universal attraction: every particle against every other.  Moon is pulled by and pulls Earth, but also Sun, (and Jupiter, venus, etc.)
+   - Newton and apple story: fact vs legend
+   - Newton and brachistochrone 
+   - Same pattern for electric forces
+      - Now positive and negative attract, like repel.  
+      - Fundamental charge is that of electron or proton
+      - But, we use "Coulombs", which is like a "kg" -- 6 x10^18 electrons.
+      - Amount of free electrons in grain of sand copper, or in half a second of electricity in a house wire.
+      - And, the constant is: 9x10^9.  Notice a difference?
+      - One coulomb imbalance at 1000m distance is 9x10^9/1000^2 = 9x10^3 or 9 metric tons.
+   - contact forces are repelling electrons, basically
+
+### Force perpendicular to the velocity
+  * Velocity is also a vector.  Force applied to v is not always collinear.
+  * Spin weight around.
+  * Change that results from acceleration in magnitude equal to force once (3 m/s, acc of 3 m/s^2 at right angles)
+     * Turn of radian per second.
+  * Making an object follow a circle at v requires how many R/s?
+     * V/r
+  * So, need acceleration of magnitude $v * v/r = \frac{v^2}{r}$
+  * Intuition
+     * r in denominator because larger r requires fewer R/s
+     * V squared because twice the v requires twice the R/s and twice the a to turn it.
+
 	- Example of a car going around a corner. As a group, calculate the max speed that a car can have on a corner of radius 200m or something.
 	- Banked curves and how they help - the inward component of the normal adds to the friction force to create the centripetal force
 	- Rope swing - some of them will have done this (if not, it's a great central Texas activity, they should try it) and know you have to hang on super hard at the bottom of the swing. Draw a FBD, talk about why. Calculate the force for a typical rope swing, or do this in HW.
