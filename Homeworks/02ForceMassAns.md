@@ -41,14 +41,14 @@ weight as 50kg.  (Jim hasn't gotten to this one.).  The elevator kicks in, and t
 
    d. And, how far will it go in that time, in km (Answer is surprisingly far; air resistance makes a difference.)? **60(520) = 31.2km**
 
-   e. Finally, how would you fire the rifle to get a flight time of almost 85 seconds, and a distance of about 36km? 
+   e. Finally, how would you fire the rifle to get the maximum possible distance given its 600 m/s muzzle velocity, and what is that distance and flight time?  (A hint: it's over 80s and 35km.)
 
 **45 degree angle gives 424.2 m/s components, (2)424/10 = 84.8s time, and (84.8)424 = 36.0km (just under)**
 
 6. Redo the hanging 1kg-ball example from class, but with the cables at 10 degree
 angle from the horizontal.  Compute the tension in the cables.  
 
-**4.9N vertical per cable.  4.9N/sin(10) = 28.2N**
+**5N vertical per cable.  5N/sin(10) = 28.8N, or 28.2N if 9.8 g is assumed as in class**
 
 ### Silver -- free
 ### Gold -- free

@@ -186,6 +186,8 @@
 
 ### Underlying laws for balanced forces
 * Gravity
+   - Aside on scientific notation
+      - gut feel: x10^6? x10^3, etc..
    - $F = G\frac{m_1m_2}{r^2}$ where $G = 6.67 x 10^{-11}$
    - OK, and we know that g is 9.8.  Try it out for a 100kg mass
       - $980 = 6.67 x 10^{-11}\frac{100 m_2}{(6.38x10^6)^2}$ 
@@ -207,22 +209,39 @@
       - One coulomb imbalance at 1000m distance is 9x10^9/1000^2 = 9x10^3 or 9 metric tons.
    - contact forces are repelling electrons, basically
 
-### Force perpendicular to the velocity
+### Acceleration perpendicular to the velocity
   * Velocity is also a vector.  Force applied to v is not always collinear.
   * Spin weight around.
   * Change that results from acceleration in magnitude equal to force once (3 m/s, acc of 3 m/s^2 at right angles)
      * Turn of radian per second.
-  * Making an object follow a circle at v requires how many R/s?
+  * Making an object follow a circle at circumferential V requires how many R/s?
      * V/r
   * So, need acceleration of magnitude $v * v/r = \frac{v^2}{r}$
   * Intuition
      * r in denominator because larger r requires fewer R/s
      * V squared because twice the v requires twice the R/s and twice the a to turn it.
 
-	- Example of a car going around a corner. As a group, calculate the max speed that a car can have on a corner of radius 200m or something.
+  * Example of a car going around a corner: max speed that a car can have on a corner of radius 10m.
+     - centripetal force needed 
+     - force exertable by tires
+        - Area matter? Number of tires?
+        - $\mu_f = .9$, rubber on dry asphalt
+        - car mass 2000kg
+        - So, 20000N * .9 = 18000N
+        - $m(v^2/10) = 18000; v^2 = 90; v = 9.48$
+        - mass of car matter?
+  * Washing machine spin cycle
+    * 30cm radius; 300 rpm
+    * $v^2/r = (5*2*\pi*.3)^2/.3 = 296m/s^2 = 30.2G$ 
+  * Geosync orbit
+    * R from center of earth; (Earth radius is 6.38x10^6)
+    * $v = 2\piR/(24(3600)) = 7.27x10^{-5}R$
+    * $v^2/R = (7.27x10^{-5})^2 R$ = 9.81(6.38x10^6/R)^2$
+    * $R^3 = 9.81(6.38x10^6)^2/(7.27x10^{-5})^2$
+    * $R = 42.235x10^6m = 42,235km = 35855km above surface$
 	- Banked curves and how they help - the inward component of the normal adds to the friction force to create the centripetal force
 	- Rope swing - some of them will have done this (if not, it's a great central Texas activity, they should try it) and know you have to hang on super hard at the bottom of the swing. Draw a FBD, talk about why. Calculate the force for a typical rope swing, or do this in HW.
 	- Gravity and orbits. Solve for v as a function of r. Discuss geosynchronous orbits. 
 
-Energy
-	- Energy is an integral of a motion. Show how this works using 
+## Topic 2 Energy
+	
