@@ -235,13 +235,107 @@
     * $v^2/r = (5*2*\pi*.3)^2/.3 = 296m/s^2 = 30.2G$ 
   * Geosync orbit
     * R from center of earth; (Earth radius is 6.38x10^6)
-    * $v = 2\piR/(24(3600)) = 7.27x10^{-5}R$
+    * $v = 2\pi R/(24(3600)) = 7.27x10^{-5}R$
     * $v^2/R = (7.27x10^{-5})^2 R$ = 9.81(6.38x10^6/R)^2$
     * $R^3 = 9.81(6.38x10^6)^2/(7.27x10^{-5})^2$
     * $R = 42.235x10^6m = 42,235km = 35855km above surface$
-	- Banked curves and how they help - the inward component of the normal adds to the friction force to create the centripetal force
-	- Rope swing - some of them will have done this (if not, it's a great central Texas activity, they should try it) and know you have to hang on super hard at the bottom of the swing. Draw a FBD, talk about why. Calculate the force for a typical rope swing, or do this in HW.
-	- Gravity and orbits. Solve for v as a function of r. Discuss geosynchronous orbits. 
+  * Mass of Sun:
+    * Earth 1.5x10^8km or what in m?
+       * 1.5x10^11m
+    * Time to orbit is 3.1 x 10^7
+    * Orbital speed thus? 
+       * 30,400 m/s
+    * acceleration is?
+       * v^2/r = .0062 m/s^2.  Very small!
+       * .0062 = G m/r^2 = 6.67x10^-11 * m / (1.5x10^11)^2
+       * m = 2 x 10^30 kg
 
 ## Topic 2 Energy
+* Forms of energy
+   * kinetic
+   * light/radiation
+   * electric
+   * potential
+      * gravity
+      * chemical
+   * heat
+      * vibration.  Absolute zero.  Kelvin -273
+
+* General conservation of energy
+   * Driving a car.  Chemical -> kinetic -> heat
+   * Lighting a room: light -> heat
+   * Dropping a weight: potential -> kinetic -> heat
+
+* Energy units
+   * Joule -- 1 kgm^2/s^2.  
+      * Energy to lift one kg one meter against 1 m/s^2 acceleration
+      * 1N across 1m, or 10N across .1m, etc.
+   * Watt -- 1 J/s
+      * Power vs energy
+      * Lift 1kg .1m/s
+   * Convenient alternates
+   * calorie (cal) -- 4.2J
+      * Heat 1 gm of water 1C originally and still accurate
+      * Formally, 4.184J
+      * (5ccs per teaspoon)
+      * Book falling .42M in gravity heats 1/5 tsp 1C
+   * Kilocalorie (kcal) -- 4184J
+      * The "food" calorie
+      * Heats 1L of water 1C
+      * 15cc oil has 120 kcal.  Burn to heat 2L?
+   * BTU and Therm (1000 BTU)
+      * old school "kcal" -- 1lb of water 1 degree F
+      * Still useful in e.g. gas bills
+      * No longer used in Britain!
+   * kilowatt-hour
+      * 1000W for 1 hour
+      * How many J?  (3.6 x 10^6)
+   * kiloton
+      * Nominally 1,000 tons of TNT
+      * Formally, 4.2x10^12J
+* Kinetic energy
+   * If a kg is moving 10m/s, how far up can it go on a ramp?
+   * Reason out that it's the square of the velocity
+   * Joule = newton-meter, so 1 KG at 10 m/s can rise for 10s at average v of 5.
+   * In general, the kg can rise against 1N for V s at V/2 average speed.
+   * Kinetic energy is thus v^2/2 for each kg, or $\frac{1}{2}mv^2$
+* So, let's do some conversions of energy
+   * How much does it cost to heat 1L of water 60C for coffee? ($.15/kwatt hour)
+   * Drop 1KG 5m into 10L of water.  How much does it warm up?
+   * (Recall $v = \sqrt{2da}$)
+   * Fire 10g bullet at 500m/s into 10L of water.
+      * Use machine gun to make coffee...
+   * Accelerate a 1MT car to 30 m/s electrically with 10KW battery.  How long?  (4.5s)
+   * Lift same car up 100km electrically.  How many kwatt-hours?
+   * Accelerate car to 8km/s also.  How many kwatt-hours?
+   * Heat Lake Erie (4.84x10^14L) with 1MT detonation
+* Electrical energy
+   * amp definition
+      * Interesting history on amp def
+   * Volt definition
+   * Watt = V*A
+   * 15A wall socket at 120V gives?
+   * Solar energy is about 1kw/m^2.  But cells are maybe 20% efficient.
+* Run a car off solar cells on roof?
+   * How much power?
+   * How long to accelerate 1MT to 10 m/s?
+* Heat Energy
+   * Already discussed joules <-> calories, but is temperature/kg-joule the same for all substances?  
+   * *Specific heat* capacity: $J/kg \degreeC$
+      * Water?  (4184)
+      * other substances: Iron 460; rock 800; air 1000
+   * *Thermal mass* $J/\degreeC$
+      * Multiply in the mass to get a whole "object's" capacity.  
+      * Thermal mass of a cubic meter of water... ?
+   * *volu8metric heat capacity* $J/m^3\degreeC$
+      * water, *per m^3*...
+* Heat flow
+   * Thermal conductivity $W/m\degreeC$
+      * delve into the units
+   * Thermal conductance $W/m^2\degreeC$
+      * Assumes the width, e.g. for a wall.
+
+   
+
+   
 	
