@@ -309,31 +309,94 @@
    * Lift same car up 100km electrically.  How many kwatt-hours?
    * Accelerate car to 8km/s also.  How many kwatt-hours?
    * Heat Lake Erie (4.84x10^14L) with 1MT detonation
+      * $4.2e18/4.84e14 = 8678 J/L;  8678/4184 = 2.07 \degree C$
+      * Sort of disappointing, but Tsar Bomba (~50MT) would have brought it to boiling.
 * Electrical energy
    * amp definition
-      * Interesting history on amp def
+      * Interesting history on amp definition
    * Volt definition
    * Watt = V*A
-   * 15A wall socket at 120V gives?
-   * Solar energy is about 1kw/m^2.  But cells are maybe 20% efficient.
-* Run a car off solar cells on roof?
-   * How much power?
-   * How long to accelerate 1MT to 10 m/s?
-* Heat Energy
+   * 15A wall socket at 120V gives? *(1800W)*
+   * As a heater, will take how long to raise 2L from 20C to 100C?
+      * $80*4184*2/1800 = 372s$ or just over 6 min.
+   * Solar energy is about 1kw/m^2.  But cells are maybe 20% efficient, so we'll use $200W/m^2$
+* Run a car off solar cells on its roof -- say 4m^2?
+   * How much power?  **(800W)**
+   * How long to accelerate 1mt to 10 m/s (residential speed)?  1000kg 10^2 1/2 = 5x10^4J
+   * 50,000/800 = 62.5s, around a minute
+   * So, without recalc, how long to get to freeway speed of 30 m/s?  (x9 so 9 min)
+   * (air resistance will actually stop it from getting that fast)
+* More on Heat Energy
    * Already discussed joules <-> calories, but is temperature/kg-joule the same for all substances?  
-   * *Specific heat* capacity: $J/kg \degreeC$
+   * Specific heat: $J/kg \degree C$
       * Water?  (4184)
-      * other substances: Iron 460; rock 800; air 1000
-   * *Thermal mass* $J/\degreeC$
-      * Multiply in the mass to get a whole "object's" capacity.  
-      * Thermal mass of a cubic meter of water... ?
-   * *volu8metric heat capacity* $J/m^3\degreeC$
-      * water, *per m^3*...
+      * other substances: Iron 450; rock 800; air 1000; lead 129
+      * You heat a cast iron pot (4kg) full of water (2L) to boiling (+80C).  How many J?
+         * **Pot: 80 * 4 * 450 = 144 kJ; water: 80 *2 * 4184 = 669 kJ
+         * So, pan weighs twice the water, but uses < 1/4 the energy
+      * 1MT goes off in a 10km^3 box of air.  (Air is 1.23 kg/m^3)
+         * Mass of air: 1.23x10^12kg.  4.2x10^18J/1.23x10^12kg = 3.4x10^6J/kg = 3400 degrees C
+   * *Thermal mass* $J/\degree C$
+      * Multiply in the mass to get a whole object's capacity.  
+      * Thermal mass of a cubic meter of water?
+         * $4184*1000 = 4.18x10^6 J/\degree C$
+      * You heat a home with electricity, and have a setup where a m^3 of water gets heated to 60C by sunlight, then releases that heat at night.  How many kwh do you save?  
+         * $(60-20)C*4.18x10^6 J/C = 1.67x10^8J$
+         * $1.67x10^8 / 3.6x10^6 = 46 kwh$; 46*\$.15 = $6.97/day
+      * Thermal mass of small office 3x4x2.5m^3 of air? 1.23*30*1000 = 36900J/degree C
+         * 1800W space heater heats 5 degrees?  36900/1800 * 5 = 102.5.
 * Heat flow
-   * Thermal conductivity $W/m\degreeC$
-      * delve into the units
-   * Thermal conductance $W/m^2\degreeC$
-      * Assumes the width, e.g. for a wall.
+   * Thermal conductivity $W/m\degree C$
+   * Flow is per area -- more area, more flow.  so W/(m^2 \degree C) ?
+   * But, it's not just watts.. It's the distance through the material.
+   * 10W 1m vs 10W 100m.  A watt-meter is the measure.
+      * 10W through 1 meter; 20W through .5M; 5W through 2meter
+      * So, $\frac{W m}{m^2 \degree C}$, or just $\frac{W}{m \degree C}$
+   * Values: copper 401; silver 429; rock 5; snow ~.1; styrofoam .033;
+   * You: 100W resting, 300 W exercising
+   * Make a room 2m x 2m x 2m.  Each wall 4m^2, total 24 m^2.
+   * Outside is -40C.  Keep inside 20C.  Use 100W
+   * 4 W/m^2
+   * So, a square meter, a meter thick, across 60C...
+      * Rock: 5*60 = 300Wm.  75m for 4W
+      * snow .1*60 = 6Wm.  1.5M of snow!
+      * styrofoam .033*60 = 2Wm. 50cm of styrofoam
+   * This is a pattern.  electrical conductivity, heat, diffusion, etc.
+* Light energy
+  * Speed of light.  3x10^8m/s
+     * To oppose side of Earth .3s
+     * Moon and back 3s
+     * Sun to earh? 500s
+     * Nearest star 150 millions (4.3 yrs)
+  * Waves of elecricity and magnetism interleaved 90 degrees.
+  * Frequency.  (Hz unit)
+    * Any is possible
+    * ULF radio 1000Hz or 1kHz
+       * Wavelength?  (3x10^5 or 300,000m or 300km)
+    * "normal" radio
+    * IR
+    * visible light (red)
+    * visible light (green)
+    * visible light (blue)
+    * UV
+    * Xrays
+    * Gamma rays 10^20Hz
+       * 8x10^-9, 8 nanometers.  100 atoms wide.
+  * Analogy with sound
+    * "octave" is 2x frequency.
+       * 65 Hz "low C"
+       * 130 Hz "Viola C"
+       * 260 Hz "middle C
+    * 10^3 Hz to 10^20 Hz is around 57 octaves or doublings
+  * Visible light in more detail
+    * Human color sense
+    * Examples of colors, incl yellow
+    * MS Paint
+    * CMYK vs RGB
+    * What if we could see more colors (like shrimp)
+
+
+
 
    
 

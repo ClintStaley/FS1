@@ -18,16 +18,17 @@ In the following assignments:
 
 2. Use the fact that earth orbits $1.5x10^8$ km (note km) from the sun to compute the acceleration toward the sun needed to keep the earth in its orbit.  Assume 365.25 days/year.  If we let the earth fall toward the sun for a minute at that acceleration, how far would it fall?  
 
-**$V = 1.5x10^{11}*\tau/(365.25*24*3600) = 29,570 m/sec$**\
-**$a = \frac{29570^2}{1.5x10^11} = .00583 m/s^2$**\
-**$d = (.5).00583 60^2 = 10.5m$**
+**$V = 1.5x10^{11}*\tau/(365.25*24*3600) = 29,865 m/sec$**\
+**$a = \frac{29865^2}{1.5x10^11} = .00595 m/s^2$**\
+**$d = (.5).00595 60^2 = 10.7m$**
 
-3. If the sun was the same mass as the earth, what would its gravitational attraction be at the distance of the earth?  Compare that value with the acceleration it actually gives, from the prior problem, to estimate the sun's mass relative to the earth.  And use 9.8 for earth gravity in this one problem, to get a closer estimate.
+3. If the sun was the same mass as the earth, what would its gravitational attraction be at the distance of the earth?  Do this the easy way by figuring out how many earth radii 1.5x10^8km is (over 20,000 earth radii).  Then use that to reduce 9.8 by the right factor.  
 
-**Radius ratio is $1.5x10^11/6.38*10^6 = 2.35x10^4$**\
+    Compare that value with the acceleration it actually gives, from the prior problem, to estimate the sun's mass relative to the earth.  And use 9.8 for earth gravity in this one problem, to get a closer estimate.
+
+**Radius ratio is $1.5x10^{11}/6.38*10^6 = 2.35x10^4$**\
 **$9.8/(2.35x10^4)^2 = 1.77x10^{-8} m/s^2$**\
-**$.00583/1.77x10^{-8} = 3.29x10^5 earth masses$**
-
+**$.00595/1.77x10^{-8} = 3.36x10^5 earth masses$**
 
 ### Bronze
 

@@ -12,11 +12,11 @@ In the following assignments:
 
 1. A modern jet engine turns at up to 10,000 RPM, with a radius of .45m.  What is the centripetal acceleration at the tips of the blades?  How much would a 1 gram of steel (a cube about the size of a pencil eraser) appear to weigh, in kg, at that acceleration?
 
-
 2. Use the fact that earth orbits $1.5x10^8$ km (note km) from the sun to compute the acceleration toward the sun needed to keep the earth in its orbit.  Assume 365.25 days/year.  If we let the earth fall toward the sun for a minute at that acceleration, how far would it fall?  
 
+3. If the sun was the same mass as the earth, what would its gravitational attraction be at the distance of the earth?  Do this the easy way by figuring out how many earth radii 1.5x10^8km is (over 20,000 earth radii).  Then use that to reduce 9.8 by the right factor.  
 
-3. If the sun was the same mass as the earth, what would its gravitational attraction be at $1.5x10^8$ km?  Compare that value with the acceleration it actually gives, from the prior problem, to estimate the sun's mass relative to the earth.  And use 9.8 for earth gravity in this one problem, to get a closer estimate.
+    Compare that value with the acceleration it actually gives, from the prior problem, to estimate the sun's mass relative to the earth.  And use 9.8 for earth gravity in this one problem, to get a closer estimate.
 
 ### Bronze
 
