@@ -1,0 +1,91 @@
+\documentclass[12pt]{article}
+%\renewcommand\normalsize{\fontsize{10pt}{12pt}\selectfont}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=1.5cm]{geometry}
+
+\title{HW 4}
+%\author{Dennis Wilkinson}
+%\date{March 31 2025; due Monday April 7}
+
+\begin{document}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3mm}
+
+FS1 Wilkinson HW 4, due Thursday, April 24 2025
+
+1. a. A ball with mass 1 kg is dropped from height $h=6$ m. Ignore air resistance and fill in the following chart with its potential energy U, kinetic energy KE and total energy TE for various $h$. You should use $mgh$ for U, since we're on Earth's surface and the gravitational force stays almost exactly constant during the fall; you can round $g$ to 10 m/s$^2$ for this. Energy is conserved so TE stays constant. The SI unit for energy is Joules, 1 J = 1 $\frac{kg\cdot m^2}{s^2}$.
+
+\begin{tabular}{c |c |c |c} % centered columns (4 columns)
+%\hline\hline %inserts double horizontal lines
+h(m) & U(Joules) & KE(J) & TE(J)\\ [0.5ex] % inserts table
+%heading
+\hline % inserts single horizontal line
+6 & 60 & 0 & 60 \\ % inserting body of the table
+4 &  &  & 60 \\
+2 &  &  &  \\
+0 &  &  &  \\ [1ex] % [1ex] adds vertical space
+\hline %inserts single line
+\end{tabular}
+
+b. Conservation of energy makes it easy to calculate $v$, using the KE; find $v$ when $h=2$ m. 
+
+c. If there is air resistance, the ball will lose TE as it falls. Qualitatively, how would your numbers for U and KE change? Something must be gaining the lost TE... what and how?
+
+
+2. If evil aliens decide to destroy Gotham City, well, they might have super sci-fi weapons to do it. On the other hand, one of the cheapest strategies for them could be a ``V-strike" - simply launch a large object towards Gotham and let it fall. 
+
+a. Consider a spherical asteroid of radius 100 m and density 3 kg/m$^3$. Show that its mass is $12.6 \times 10^6$ kg. (volume of sphere is $\frac{4}{3}\pi r^3$, density is mass times volume). 
+
+b. The aliens push this asteroid slowly towards Gotham so that it has a speed of $v=1$ m/s when $r$=100 times Earth's radius (this is the distance from the asteroid to the center of Earth). Then they stop pushing it and watch it fall. Fill in the table for the PE and KE until $r$ = 1 times Earth's radius (impact!). Reminder: Earth's radius is 6380 km, which is $6.38 \times 10^6$ m.
+
+\begin{tabular}{c |c |c |c} % centered columns (4 columns)
+%\hline\hline %inserts double horizontal lines
+h($R_{Earth}$) & U(Joules) & KE(J) & TE(J)\\ [0.5ex] % inserts table
+%heading
+\hline % inserts single horizontal line
+100 & $-7.9\times10^{12}$ & $6.3 \times 10^6$ & $-7.9\times10^{12}$ \\ % inserting body of the table
+50 &  &  &  \\
+10 & & & \\
+1 &  &  &  \\  [1ex] % [1ex] adds vertical space
+\hline %inserts single line
+\end{tabular}
+
+c. Compare the rock's KE when it hits Gotham to the energy released by the Hiroshima bomb (you can look this up). If the rock gets through the atmosphere without burning up, Gotham is in trouble. This is why asteroids are dangerous. Many of them are far larger than 100m spheres; their radii are in km, tens of km, or more for the largest.
+
+d. What do the numbers in your table say about the importance of the initial velocity and distance on the amount of destruction? How about the time until impact?
+
+
+3. Earth's orbit is slightly elliptical. Its speed (with respect to the sun) at the perihelion - the point of closest approach to the sun - is 30.29 km/s, and its distance from the sun is 0.9833 AU. One AU is $1.496 \times 10^{11}$ meters. 
+
+a. Calculate the Earth's total energy, U + KE, using the values at the perihelion. You need to use $U=-\frac{GMm}{r}$ here and convert km to m.
+
+b. The aphelion speed is 29.29 km/s. Use this and your answer to (a) to calculate the aphelion distance in AU; compare to the true value (look it up). Should be just right, since energy is conserved.
+
+4. Algebra problem... In class we talked about KE being the quantity which is changed when a force acts on an object over some distance. (This is called ``work" in physics.) The algebra was: multiply $F=ma=m\frac{\Delta v}{\Delta t}$ by $\Delta x$ on both sides to get $F \Delta x= m\frac{\Delta v}{\Delta t}\Delta x$, and then use $\Delta x = \frac{1}{2}a(\Delta t)^2=\frac{1}{2}\frac{\Delta v}{\Delta t}(\Delta t)^2$ on the right side to find $F \Delta x= \Delta(\frac{1}{2}mv^2)$.
+
+Okay, but $\Delta x = \frac{1}{2}a(\Delta t)^2$ is only true if the object starts at rest; in this case $\Delta v = v-0=v$, where $v$ is the final velocity. Imagine an object which already has speed $v_0$ when the force starts to act. Now, $\Delta x = v_0\Delta t+\frac{1}{2}a(\Delta t)^2$, and $\Delta v = v-v_0$. Show that in this case, the algebra still works out to $F \Delta x= \Delta(\frac{1}{2}mv^2)$. Note that $\Delta(\frac{1}{2}mv^2) = \frac{1}{2}m(v^2-v_0^2)$.
+
+5. In class, we calculated the escape velocity from Earth to be 11.2 km/s. 
+
+a. Imagine planet Tatooine which, let's say, has twice the mass but the same radius as Earth. How would the escape velocity compare to Earth? What about Arrakis, which (let's say) has the same mass as the original Earth but 1.5 times the radius?
+
+b. Mars's mass is 0.107 that of Earth, but its radius is also smaller, 0.532 Earth's radius. Is the escape velocity for Mars larger or smaller than for Earth? Justify your answer. 
+
+
+6*. Consider an object of mass $m$ which is pulled by gravity towards an object of mass $M$. The distance between the centers of mass is $r$.
+
+a. As $r$ changes an infinitesimal amount from $r_0$ to $r_0-dr$, show that the KE increases by an infinitesimal amount $\frac{GMm}{r^2}dr$.
+
+b. Calculate the change in KE for motion from $r_0$ to $r_1$, where $r_1<r_0$, by integrating your result from part (a). 
+
+c. It is usual to set $U=0$ at $r=\infty$. Go to the limit $r_0\rightarrow \infty$ in part (b) to show that $U=-\frac{GMm}{r}$ for arbitrary $r$.
+
+d. We didn't specify which object was moving, since we only talked about the center of mass distance $r$. Are we making a mistake here? Not really. Let the positions of $m$ and $M$ be $r_m$ and $r_M$, and let $r=r_m-r_M$ and $v=\frac{dr}{dt}$. Show that Newton's 2nd law gives $\frac{dv}{dt}=\frac{1}{m}F_m-\frac{1}{M}F_M$, where $F_m$ and $F_M$ are the gravitational forces on mass $m$ and $M$ respectively (from each other). Now since $F_m=-F_M$ by Newton's 3rd law, where the negative means in the opposite direction, show that $\frac{dv}{dt}=\frac{1}{\mu}F_m$, where $\mu=\frac{mM}{m+M}$ is called the reduced mass. Calculate this for Sun ($M=2\times 10^{30}$ kg) and Earth ($M=6 \times 10^{24}$ kg). If, say, $M=2m$, then the reduced mass matters, but the dynamics are qualitatively the same because it's the same equation with just a change in the mass. 
+
+7*. What about elliptical, or arbitrary, motion, where $\vec{v}$ is a combination of radial and tangential velocity (not just a radial death plunge)? How can we be sure that energy will be conserved? Let $\vec{dr} = \vec{v(t)}\,dt$ be the vector which describes an arbitrary small piece of the motion. Let's take the dot product of both sides of $\vec{F}=m\vec{a}$ with $\vec{dr}$ and integrate along the motion from $\vec{r_0}$ to $\vec{r_1}$:
+\begin{equation}
+\int_{r_0}^{r_1} \vec{F}\cdot\vec{dr} = \int_{t_0}^{t_1} (m \frac{d\vec{v}}{dt}\cdot \vec{v}) \, dt
+\end{equation}
+where $t_0$ and $t_1$ are the times the object is at $r_0$ and $r_1$ respectively. Show that the right side integrand equals $\frac{d}{dt} (\frac{1}{2}m\vec{v}\cdot\vec{v})$. Thus, the right side is a complete differential; show it equals $\frac{1}{2}mv_1^2-\frac{1}{2}mv_0^2$ where $v_0$ and $v_1$ are the velocities at $t_0$ and $t_1$. This was for an arbitrary path; therefore, the energy difference does not depend on the path taken. 
+\end{document}

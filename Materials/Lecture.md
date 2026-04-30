@@ -438,7 +438,7 @@
      * W/m^2 just like light, but very small.  Jet engine is 1 W/m^2
      * Ear can, theoretically, hear at $10^{-12}w/m^2$
      * Logarithmic scale, starting at 0
-        * Originall by 1's and named after AG Bell!
+        * Originally by 1's and named after AG Bell!
         * Refined to go by tens, thus "deci"bel, abbr dB
         * 50dB quiet office; 60dB
         * Show examples
@@ -453,6 +453,14 @@
            * "Impedance mismatch" concept, intuitively
            * Wave hand back and forth in air... in water..  Energy to move hand vs contributed to water...
            * Example of "horn" speaker, or just cupped hands
+     * Sonic boom concepts
+ * Nuclear/atomic energy
+   * Periodic table and atomic structure
+   * Neutron/proton balance and atomic weight in atomic units
+   * Why atomic weight not an integer? 
+      * Isotopes.  Carbon as example. C12, C13, C14
+      * Radioactive decay.  C14 has "too many neutrons", so beta emission
+      
 
            
    

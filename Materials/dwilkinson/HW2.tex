@@ -1,0 +1,62 @@
+\documentclass[12pt]{article}
+%\renewcommand\normalsize{\fontsize{10pt}{12pt}\selectfont}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=1.5cm]{geometry}
+
+\title{HW 2}
+%\author{Dennis Wilkinson}
+%\date{March 31 2025; due Monday April 7}
+
+\begin{document}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3mm}
+
+
+FS1 Spring 2025
+HW2 - Forces part 1
+
+A raindrop falls from a cloud, starting at a position 3 km (3000 meters) above the ground at $t=0$. This is a series of problems about its fall to the ground, with or without air resistance.
+
+1. First, ignoring air resistance, the acceleration of the drop is the acceleration of gravity, which is 9.8 m/s$^2$ towards the Earth's center. This means that after 3 seconds, the drop's speed (without air resistance) is...?
+
+2. Why does the acceleration of the drop not depend on the drop's size or mass, when we ignore air resistance?
+
+3. Calculate the speed of the drop when it hits the ground, ignoring air resistance. First, figure out how long the fall takes (we developed an equation for this in HW1), and then use logic similar to what you used in question 1. There are other approaches which are okay here, if you know them.
+
+4. How fast is this speed in miles per hour? Compare to a bullet - you can look this up online. Compare to the speed of (actual, air-resistance affected) hail when it hits - you can look this up. The non-air resistance rain drop, though slower than a high-speed bullet, would be very dangerous.
+
+5. Now with air resistance: explain why the acceleration of the drop decreases as the drop falls. It would be nice to include a free body diagram with force arrows.
+
+6. As the acceleration of the drop decreases, is the drop slowing down, speeding up, or staying the same speed? How does the motion compare to the initial motion before the air resistance kicked in?
+
+7. At terminal velocity, how does the air resistance force compare to the drop's weight?
+
+8*. As mentioned in class, air resistance is a bit complicated and results from several effects. The following problems deal with one that dominates at high speed. Imagine the drop has a circular cross sectional area with radius $R$, when viewed from below. During a time $\Delta t$ of its fall, show that the drop passes through an area of air with total mass $\rho_{air} \pi R^2 v\Delta t$, where $\rho_{air}$ is the density of air.
+
+9*. This is beyond the scope of what we've done so far, but the drop imparts momentum proportional to the mass you calculated in $g$, times $v$. The air resistance force is therefore $c\rho_{air} \pi R^2 v^2$, where $c$ is some dimensionless constant of order 1. Using this, show that the terminal velocity of the drop is 
+\begin{equation}
+v_t = \sqrt{\frac{mg}{c\rho_{air} \pi R^2}}.
+ \end{equation}
+
+10. Calculate this value for a typical rain drop (use the formula in \#9), using $c=0.5$ and $\rho_{air}$ = 1.2 kg/m$^3$. You can either guess at the value of $R$ and $m$, or look them up. You should get a number on the order of 10 to 20 m/s. What does the internet say the terminal velocity of typical rain drops is?
+
+11. Consider a hypothetical drop of mercury rain, and assume it has the same drag coefficient. Mercury is 13 times as dense as water. How would the mercury drop's terminal velocity compare to the water drop? Why?
+
+12. Sketch a qualitative graph of the raindrop velocity as a function of time ($v$ vs $t$, as it falls. You can just guess how long it takes to reach terminal velocity for your graph - I'm more interested in the shape of the curve.
+
+13*. Show that the Newton's equation $F_{net}=ma=m\frac{dv}{dt}$ for the drop can be written 
+\begin{equation}
+\frac{dv}{v_t^2-v^2}=\frac{g}{v_t^2}dt
+ \end{equation}
+where $v_t$ is the terminal velocity from \#9. Integrate from 0 to $v$ on the left, and 0 to $t$ on the right, to get the solution:
+\begin{equation}
+v(t)=\frac{e^{2gt/v_t}-1}{e^{2gt/v_t}+1}v_t.
+ \end{equation}
+The integral is by partial fractions. 
+
+14*. Show that in the limit of small $t$, $v(t)$ is what we would expect it to be, while the solution approaches $v_t$ for large $t$. 
+
+15*. Use Desmos to plot the solution from \#13, or sketch it, using your $v_t$ from \#10. The characteristic time of this motion is a time scale on which ``interesting" behavior occurs (the solution is neither the small $t$ approximation nor asymptotic). Here, it's $v_t/g$ - calculate this. After this amount of time, we will be making a significant error in ignoring air resistance, for a rain drop at least.
+
+\end{document}

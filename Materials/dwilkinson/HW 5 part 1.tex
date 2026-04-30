@@ -1,0 +1,81 @@
+\documentclass[12pt]{article}
+%\renewcommand\normalsize{\fontsize{10pt}{12pt}\selectfont}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=1.5cm]{geometry}
+
+\title{HW 5, part 1}
+%\author{Dennis Wilkinson}
+%\date{March 31 2025; due Monday April 7}
+
+\begin{document}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3mm}
+
+FS 1 Wilkinson HW 5, due Monday April 28, 2025
+
+1. We talked about the kinetic theory of a gas in class, where rebounding molecules are the source of pressure. This led to the Ideal Gas Law $PV=NkT$ as long as $\frac{3}{2}kT=\langle KE \rangle$, where $\langle KE \rangle$ is the average KE of a molecule in the gas. Since the Ideal Gas Law is experimentally confirmed, this is the correct relation between average KE and T in a gas.
+
+a. Calculate the average KE of one air molecule in your room at a comfortable temperature (convert to Kelvin).
+
+b. Air mostly consists of N$_2$ molecules. Find the ``average" (root mean square) speed $v_{rms}=\sqrt{\langle v^2 \rangle}$ of one of these molecules in m/s and mi/hr. This is a typical speed of an N$_2$ molecule in your room. You need to use kg for mass; one proton or neutron has mass $1.67 \times 10^{-27}$ kg.
+
+c. Are the O$_2$ molecules in the air moving faster, the same speed, or slower than the N$_2$ molecules? Why?
+
+d. Kinetic theory gives us a way to estimate the time between collisions of air molecules. Imagine a molecule which has a collision, then moves freely for time $\Delta t$ before having another collision. If the molecule's speed between collisions is $v$, then it moves through a length $v \Delta t$ between collisions. 
+
+Say the molecule has a circular cross sectional area of radius $r$ (not that accurate); show that the volume it moves through between collisions is then $V=\pi r^2 v \Delta t$. Draw it out if it helps.
+
+This volume of air must contain one molecule or so; otherwise collisions would be happening more frequently. So the number density $n$ of air must be around $1/V$ molecules/m$^3$.
+
+Using $n=2.45 \times 10^{25}$ molecules/m$^3$, 0.3 nm for the the N$_2$ molecule radius, and the $v$ you calculated in (b), calculate $\Delta t$ between collisions. I got around 0.25 nanoseconds. 
+
+
+
+2. Hot air balloons - the big ones people ride in - have a burner which the pilot uses from time to time to heat the air inside the balloon (it looks like a flamethrower pointing up into the balloon). Once the air is warmer, the balloon rises.
+
+But it's weird because the balloon maintains basically the same volume $V$ all the time - the material is not stretchy. Also, it's open to the air at the bottom, so the pressure $P$ inside equalizes with the outside $P$ and doesn't change much. 
+
+a. So what other quantity, besides $T$, changed in $PV=NkT$ when the pilot fires the burner? Does this quantity go up or down? How do you think it does this? (I noticed it when I went in a balloon.)
+
+b. Explain why the process in part (a) makes the balloon float higher in the air. This is a buoyancy question, not really relevant to Monday's lecture.
+
+3. On a hot day in Austin, the air conditioners are running hard. One typical AC unit has a pressure $P_1 = 105$ psi, which means pounds per square inch, in its \textit{vapor line}. This is the line which transports the working fluid (containing the heat it previously absorbed) from the house to the \textit{condenser}, which is the outside unit with the fan. In the condenser, the \textit{compressor} gives the fluid a much higher pressure $P_2 = 260$ psi. The fluid (now a liquid) now has a higher temperature $T_2$.
+
+a. Say the temperature in the vapor line just before the compressor is $T_1= 70 ^{\circ}$F. Convert this into Kelvin.
+
+b. When the compressor increases the pressure from $P_1$ to $P_2$, if the volume/density stayed the same (which it does not), find what the temperature in the liquid line would be using $PV=NkT$. Convert this to Fahrenheit. Hint: $N$ stays the same and we are assuming $V$ stays the same, so the ratio $P/T$ also stays the same.
+
+
+You should get an answer which is far higher than the outside temperature - in fact this is too high for the AC to function correctly. It's because we erroneously assumed the density stayed the same. This is totally wrong - in fact, the gas becomes a liquid in the compressor.
+
+c. The reason our number in (b) is off is that the density/volume of the coolant does not stay constant. Rather, $P$, $V$, and $T$ all change. Thus, we can't directly find $T_2$ with only $P_1$,  $P_2$ and $T_1$; we have 3 unknowns ($T_2$, $V_1$ and $V_2$) but only two $PV=NkT$ equations.
+
+However, we can find $T_2$ if we assume the compression process is \textbf{adiabatic} - meaning, no heat is exchanged with the environment. This is a very accurate assumption here since the compression process is quick - there isn't time for heat to flow. 
+
+In this case, $P_1V_1^\gamma=P_2V_2^\gamma$, where $\gamma = 1.12$ for a typical coolant fluid. Do a lot of algebra to show that in this case, 
+\begin{equation}
+    T_2 = T_1 \left( \frac{P_2}{P_1} \right)^{1-\frac{1}{\gamma}}. 
+\end{equation}
+Hint: start from $P_2V_2=NkT_2$, and eliminate $V_1$ and $V_2$ using the adiabatic equation $P_1V_1^\gamma=P_2V_2^\gamma$.
+
+d. Calculate $T_2$ and convert back to $^{\circ}$F. It should be somewhat hotter than a typical Austin summer day.  
+
+e. After the compressor, the hot fluid passes through the \textit{liquid line}, which is formed into coils inside the condenser (before going into the house) Google ``condenser coils" for images if you want. Heat flows out of the line into the outside air, aided by the fan. 
+
+Is this process adiabatic? Why or why not? How would you compute the pressure in the liquid line after the condenser coils?
+
+
+4*. Here we'll derive the adiabatic relation $P_1V_1^\gamma=P_2V_2^\gamma$. In class Thursday, we'll show that for an adiabatic process, $dU = PdV$ where $U$ is the internal energy and equals $\frac{1}{\gamma-1}NkT$. Gamma is known as the specific heat ratio (or heat capacity ratio) and we'll learn about it Thursday.
+
+a. Show that $dU = PdV$ becomes 
+\begin{equation}
+    \frac{dP}{P} = - \gamma\frac{dV}{V}
+\end{equation}
+using $PV=NkT$, the chain rule on $dU$, and some algebra. 
+
+b. Integrate both sides to get $PV^\gamma=$ constant. 
+
+c. $\gamma$ is determined by the number of degrees of freedom in the molecules making up the gas. Read Feynman lecture 40, section 5 if you haven't learned about this before. Roughly many internal degrees of freedom does the coolant gas used in problem 3c have?
+
+\end{document}
