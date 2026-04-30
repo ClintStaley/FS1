@@ -517,9 +517,10 @@
 <li dir="auto">15cc oil has 120 kcal.  Burn to heat 2L?</li>
 </ul>
 </li>
-<li dir="auto">BTU and Therm (1000 BTU)
+<li dir="auto">BTU and Therm (100,000 BTU)
 <ul dir="auto">
 <li dir="auto">old school &quot;kcal&quot; -- 1lb of water 1 degree F</li>
+<li dir="auto">BTU = 1055J</li>
 <li dir="auto">Still useful in e.g. gas bills</li>
 <li dir="auto">No longer used in Britain!</li>
 </ul>
@@ -659,11 +660,12 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
 <ul dir="auto">
 <li dir="auto">Thermal conductivity <eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>W</mi><mi mathvariant="normal">/</mi><mi>m</mi><mi mathvariant="normal">°</mi><mi>C</mi></mrow><annotation encoding="application/x-tex">W/m\degree C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">W</span><span class="mord">/</span><span class="mord mathnormal">m</span><span class="mord">°</span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span></eq></li>
 <li dir="auto">Flow is per area -- more area, more flow.  so W/(m^2 \degree C) ?</li>
-<li dir="auto">But, it's not just watts.. It's the distance through the material.</li>
-<li dir="auto">10W 1m vs 10W 100m.  A watt-meter is the measure.
+<li dir="auto">But, flow is not just watts.  Must consider distance through the material.</li>
+<li dir="auto">Pushing 10W across 1m vs 10W 10m.  A watt-meter is the measure.
 <ul dir="auto">
-<li dir="auto">10W through 1 meter; 20W through .5M; 5W through 2meter</li>
-<li dir="auto">So, <eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mrow><mi>W</mi><mi>m</mi></mrow><mrow><msup><mi>m</mi><mn>2</mn></msup><mi mathvariant="normal">°</mi><mi>C</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">\frac{W m}{m^2 \degree C}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.217331em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.872331em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7463142857142857em;"><span style="top:-2.786em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mord mtight">°</span><span class="mord mathnormal mtight" style="margin-right:0.07153em;">C</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">Wm</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></eq>, or just <eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mi>W</mi><mrow><mi>m</mi><mi mathvariant="normal">°</mi><mi>C</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">\frac{W}{m \degree C}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.217331em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.872331em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">m</span><span class="mord mtight">°</span><span class="mord mathnormal mtight" style="margin-right:0.07153em;">C</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.13889em;">W</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></eq></li>
+<li dir="auto">10W through 1m; 20W through .5m; 5W through 2m, all the same.</li>
+<li dir="auto">So, <eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mrow><mi>W</mi><mi>m</mi></mrow><mrow><msup><mi>m</mi><mn>2</mn></msup><mi mathvariant="normal">°</mi><mi>C</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">\frac{W m}{m^2 \degree C}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.217331em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.872331em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7463142857142857em;"><span style="top:-2.786em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mord mtight">°</span><span class="mord mathnormal mtight" style="margin-right:0.07153em;">C</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">Wm</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></eq></li>
+<li dir="auto">Often shortened to <eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mi>W</mi><mrow><mi>m</mi><mi mathvariant="normal">°</mi><mi>C</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">\frac{W}{m \degree C}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.217331em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.872331em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">m</span><span class="mord mtight">°</span><span class="mord mathnormal mtight" style="margin-right:0.07153em;">C</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.13889em;">W</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></eq> but we'll stick with former.</li>
 </ul>
 </li>
 <li dir="auto">Values: copper 401; silver 429; rock 5; snow ~.1; styrofoam .033;</li>
@@ -679,6 +681,12 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
 </ul>
 </li>
 <li dir="auto">This is a pattern.  electrical conductivity, heat, diffusion, etc.</li>
+<li dir="auto">Try conductivity: <eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mrow><mi>A</mi><mi>m</mi></mrow><mrow><msup><mi>m</mi><mn>2</mn></msup><mi>V</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">\frac{A m}{m^2 V}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.217331em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.872331em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7463142857142857em;"><span style="top:-2.786em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mord mathnormal mtight" style="margin-right:0.22222em;">V</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">A</span><span class="mord mathnormal mtight">m</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></eq>
+<ul dir="auto">
+<li dir="auto">Watts J/s -&gt; Amps C/s</li>
+<li dir="auto"><eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">°</mi><mi>C</mi></mrow><annotation encoding="application/x-tex">\degree C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">°</span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span></eq> -&gt; V</li>
+</ul>
+</li>
 </ul>
 </li>
 <li dir="auto">
@@ -715,6 +723,15 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
 </li>
 </ul>
 </li>
+<li dir="auto">Concept of logarithmic scale
+<ul dir="auto">
+<li dir="auto">Example of size in m, from -3 to 3.
+<ul dir="auto">
+<li dir="auto">Place the earth on this?, the distance to the moon?, to the sun?</li>
+</ul>
+</li>
+</ul>
+</li>
 <li dir="auto">Analogy with sound
 <ul dir="auto">
 <li dir="auto">&quot;octave&quot; is 2x frequency.
@@ -734,6 +751,106 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
 <li dir="auto">MS Paint</li>
 <li dir="auto">CMYK vs RGB</li>
 <li dir="auto">What if we could see more colors (like shrimp)</li>
+</ul>
+</li>
+<li dir="auto">&quot;Blackbody radiation&quot;
+<ul dir="auto">
+<li dir="auto">Different ways to transfer head: conduction, convection, radiation</li>
+<li dir="auto">Why ground can get colder than air at night</li>
+<li dir="auto">Why 22C can feel cold in a house with cold walls</li>
+<li dir="auto">Experiment of our body, say 1.75m^2.  Radiation rule <eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>W</mi><mi mathvariant="normal">/</mi><msup><mi>m</mi><mn>2</mn></msup><mo>=</mo><mi>ϵ</mi><mn>5.67</mn><mi>x</mi><mn>1</mn><msup><mn>0</mn><mrow><mo>−</mo><mn>8</mn></mrow></msup><msup><mi>T</mi><mn>4</mn></msup><mo separator="true">,</mo><mi>ϵ</mi><mo>=</mo><mi mathvariant="normal">.</mi><mn>95</mn><mo separator="true">,</mo><mi>T</mi><mo>=</mo><mn>305</mn><mi>K</mi></mrow><annotation encoding="application/x-tex">W/m^2 = \epsilon 5.67x10^{-8}T^4, \epsilon = .95, T = 305K</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">W</span><span class="mord">/</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.008548em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">ϵ</span><span class="mord">5.67</span><span class="mord mathnormal">x</span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">8</span></span></span></span></span></span></span></span></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">4</span></span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathnormal">ϵ</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord">.95</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">305</span><span class="mord mathnormal" style="margin-right:0.07153em;">K</span></span></span></span></eq> **466W/m^2, 816W total.</li>
+<li dir="auto">Background of 295K instead? <em>Incoming is 714W, difference about 100W</em></li>
+</ul>
+</li>
+<li dir="auto">Cosmic background of about 2.73K, leftover from big bang.  Watts/m^2? <strong>3.15x10^-6 W/m^2</strong>
+<ul dir="auto">
+<li dir="auto">1964, background noise in radio astronomy...And</li>
+</ul>
+</li>
+<li dir="auto">Ground radiating at night
+<ul dir="auto">
+<li dir="auto">Model dry night sky as 225K ish  High emissivity</li>
+<li dir="auto">Compute difference with 290K ground, should arrive at 240 ish W/m^2</li>
+</ul>
+</li>
+<li dir="auto">Greenhouse effect
+<ul dir="auto">
+<li dir="auto">CO2 passes UV but absorbs and reflects back IR</li>
+<li dir="auto">Serious greenhouse gas is <em>water</em>, however.  Humid night sky is more like 270K.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li dir="auto">
+<p dir="auto">Sound energy</p>
+<ul dir="auto">
+<li dir="auto">compression waves in air</li>
+<li dir="auto">343 m/s</li>
+<li dir="auto"><a href="https://onlinetonegenerator.com/">https://onlinetonegenerator.com/</a>
+<ul dir="auto">
+<li dir="auto">60 Hz</li>
+<li dir="auto">1000 Hz</li>
+<li dir="auto">Math for 1 Hz wave.  <eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>s</mi><mi>i</mi><mi>n</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><mo stretchy="false">?</mo><mi>s</mi><mi>i</mi><mi>n</mi><mo stretchy="false">(</mo><mi>τ</mi><mi>t</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">sin(t)?  sin(\tau t)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">s</span><span class="mord mathnormal">in</span><span class="mopen">(</span><span class="mord mathnormal">t</span><span class="mclose">)?</span><span class="mord mathnormal">s</span><span class="mord mathnormal">in</span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.1132em;">τ</span><span class="mord mathnormal">t</span><span class="mclose">)</span></span></span></span></eq></li>
+<li dir="auto">Math for 440 Hz: <eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>s</mi><mi>i</mi><mi>n</mi><mo stretchy="false">(</mo><mn>440</mn><mi>τ</mi><mi>t</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">sin(440\tau t)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">s</span><span class="mord mathnormal">in</span><span class="mopen">(</span><span class="mord">440</span><span class="mord mathnormal" style="margin-right:0.1132em;">τ</span><span class="mord mathnormal">t</span><span class="mclose">)</span></span></span></span></eq></li>
+<li dir="auto">Discuss intuition behind <eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>s</mi><mi>i</mi><mi>n</mi><mo stretchy="false">(</mo><mi>α</mi><mo stretchy="false">)</mo><mo>+</mo><mi>s</mi><mi>i</mi><mi>n</mi><mo stretchy="false">(</mo><mi>β</mi><mo stretchy="false">)</mo><mo>=</mo><mn>2</mn><mi>s</mi><mi>i</mi><mi>n</mi><mo stretchy="false">(</mo><mfrac><mrow><mi>α</mi><mo>+</mo><mi>β</mi></mrow><mn>2</mn></mfrac><mo stretchy="false">)</mo><mi>c</mi><mi>o</mi><mi>s</mi><mo stretchy="false">(</mo><mfrac><mrow><mi>α</mi><mo>−</mo><mi>β</mi></mrow><mn>2</mn></mfrac><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">sin(\alpha) + sin(\beta) = 2 sin(\frac{\alpha + \beta}{2})cos(\frac{\alpha-\beta}{2})</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">s</span><span class="mord mathnormal">in</span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.0037em;">α</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">s</span><span class="mord mathnormal">in</span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.05278em;">β</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.277216em;vertical-align:-0.345em;"></span><span class="mord">2</span><span class="mord mathnormal">s</span><span class="mord mathnormal">in</span><span class="mopen">(</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.9322159999999999em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.446108em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.0037em;">α</span><span class="mbin mtight">+</span><span class="mord mathnormal mtight" style="margin-right:0.05278em;">β</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose">)</span><span class="mord mathnormal">cos</span><span class="mopen">(</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.9322159999999999em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.446108em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.0037em;">α</span><span class="mbin mtight">−</span><span class="mord mathnormal mtight" style="margin-right:0.05278em;">β</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose">)</span></span></span></span></eq></li>
+<li dir="auto">440 Hz AND 441 Hz</li>
+<li dir="auto">Play interference pattern of 440 and various other tones</li>
+<li dir="auto">Concept of overtones.</li>
+</ul>
+</li>
+<li dir="auto">Speed in different media:
+<ul dir="auto">
+<li dir="auto">Drops with air temperature, as sqrt of K.  So at 390K vs 360K (cold winter day) <eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msqrt><mn>360</mn></msqrt><mn>390</mn><mo stretchy="false">(</mo><mn>343</mn><mo stretchy="false">)</mo><mo>=</mo><mi mathvariant="normal">.</mi><mn>96</mn><mo stretchy="false">(</mo><mn>343</mn><mo stretchy="false">)</mo><mo>=</mo><mn>330</mn></mrow><annotation encoding="application/x-tex">\sqrt{360}{390}(343) = .96(343) = 330</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1572200000000001em;vertical-align:-0.25em;"></span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.90722em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord" style="padding-left:0.833em;"><span class="mord">360</span></span></span><span style="top:-2.86722em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702
+c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,-10,-9.5,-14
+c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54
+c44.2,-33.3,65.8,-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10
+s173,378,173,378c0.7,0,35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429
+c69,-144,104.5,-217.7,106.5,-221
+l0 -0
+c5.3,-9.3,12,-14,20,-14
+H400000v40H845.2724
+s-225.272,467,-225.272,467s-235,486,-235,486c-2.7,4.7,-9,7,-19,7
+c-6,0,-10,-1,-12,-3s-194,-422,-194,-422s-65,47,-65,47z
+M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.13278em;"><span></span></span></span></span></span><span class="mord"><span class="mord">390</span></span><span class="mopen">(</span><span class="mord">343</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">.96</span><span class="mopen">(</span><span class="mord">343</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">330</span></span></span></span></eq>
+<ul dir="auto">
+<li dir="auto">Why sqrt?  Temperature is <em>kinetic energy</em> of the molecules.</li>
+</ul>
+</li>
+<li dir="auto">In water: 1500 m/s.</li>
+</ul>
+</li>
+<li dir="auto">Energy of sound
+<ul dir="auto">
+<li dir="auto">W/m^2 just like light, but very small.  Jet engine is 1 W/m^2</li>
+<li dir="auto">Ear can, theoretically, hear at <eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><msup><mn>0</mn><mrow><mo>−</mo><mn>12</mn></mrow></msup><mi>w</mi><mi mathvariant="normal">/</mi><msup><mi>m</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">10^{-12}w/m^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">12</span></span></span></span></span></span></span></span></span><span class="mord mathnormal" style="margin-right:0.02691em;">w</span><span class="mord">/</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></eq></li>
+<li dir="auto">Logarithmic scale, starting at 0
+<ul dir="auto">
+<li dir="auto">Originall by 1's and named after AG Bell!</li>
+<li dir="auto">Refined to go by tens, thus &quot;deci&quot;bel, abbr dB</li>
+<li dir="auto">50dB quiet office; 60dB</li>
+<li dir="auto">Show examples</li>
+<li dir="auto">Jet engine at 120 is 1 W/m^2; gun shot (briefly) is ??</li>
+<li dir="auto">Major rocket launch (e.g. starship booster) is 150 dB.
+<ul dir="auto">
+<li dir="auto">Watts/m^2 is?</li>
+<li dir="auto">Need to scatter it with water spray to avoid damage (as Musk found out after first starship launch!)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li dir="auto">Speaker power
+<ul dir="auto">
+<li dir="auto">&quot;100 W&quot; speaker is the input power.  1-5% efficiency to sound.</li>
+<li dir="auto">Say 3W.  How &quot;loud&quot; at perhaps 2m?</li>
+<li dir="auto">Why so inefficient?
+<ul dir="auto">
+<li dir="auto">&quot;Impedance mismatch&quot; concept, intuitively</li>
+<li dir="auto">Wave hand back and forth in air... in water..  Energy to move hand vs contributed to water...</li>
+<li dir="auto">Example of &quot;horn&quot; speaker, or just cupped hands</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>

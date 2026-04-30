@@ -283,8 +283,9 @@
       * The "food" calorie
       * Heats 1L of water 1C
       * 15cc oil has 120 kcal.  Burn to heat 2L?
-   * BTU and Therm (1000 BTU)
+   * BTU and Therm (100,000 BTU)
       * old school "kcal" -- 1lb of water 1 degree F
+      * BTU = 1055J
       * Still useful in e.g. gas bills
       * No longer used in Britain!
    * kilowatt-hour
@@ -348,10 +349,11 @@
 * Heat flow
    * Thermal conductivity $W/m\degree C$
    * Flow is per area -- more area, more flow.  so W/(m^2 \degree C) ?
-   * But, it's not just watts.. It's the distance through the material.
-   * 10W 1m vs 10W 100m.  A watt-meter is the measure.
-      * 10W through 1 meter; 20W through .5M; 5W through 2meter
-      * So, $\frac{W m}{m^2 \degree C}$, or just $\frac{W}{m \degree C}$
+   * But, flow is not just watts.  Must consider distance through the material.
+   * Pushing 10W across 1m vs 10W 10m.  A watt-meter is the measure.
+      * 10W through 1m; 20W through .5m; 5W through 2m, all the same.
+      * So, $\frac{W m}{m^2 \degree C}$
+      * Often shortened to $\frac{W}{m \degree C}$ but we'll stick with former.
    * Values: copper 401; silver 429; rock 5; snow ~.1; styrofoam .033;
    * You: 100W resting, 300 W exercising
    * Make a room 2m x 2m x 2m.  Each wall 4m^2, total 24 m^2.
@@ -362,6 +364,10 @@
       * snow .1*60 = 6Wm.  1.5M of snow!
       * styrofoam .033*60 = 2Wm. 50cm of styrofoam
    * This is a pattern.  electrical conductivity, heat, diffusion, etc.
+   * Try conductivity: $\frac{A m}{m^2 V}$
+     * Watts J/s -> Amps C/s
+     * $\degree C$ -> V
+
 * Light energy
   * Speed of light.  3x10^8m/s
      * To oppose side of Earth .3s
@@ -382,6 +388,9 @@
     * Xrays
     * Gamma rays 10^20Hz
        * 8x10^-9, 8 nanometers.  100 atoms wide.
+  * Concept of logarithmic scale
+    * Example of size in m, from -3 to 3.
+       * Place the earth on this?, the distance to the moon?, to the sun?
   * Analogy with sound
     * "octave" is 2x frequency.
        * 65 Hz "low C"
@@ -395,6 +404,59 @@
     * CMYK vs RGB
     * What if we could see more colors (like shrimp)
   * "Blackbody radiation"
+    * Different ways to transfer head: conduction, convection, radiation
+    * Why ground can get colder than air at night
+    * Why 22C can feel cold in a house with cold walls
+    * Experiment of our body, say 1.75m^2.  Radiation rule $W/m^2 = \epsilon 5.67x10^{-8}T^4, \epsilon = .95, T = 305K$ **466W/m^2, 816W total. 
+    * Background of 295K instead? *Incoming is 714W, difference about 100W*
+  * Cosmic background of about 2.73K, leftover from big bang.  Watts/m^2? **3.15x10^-6 W/m^2**
+    * 1964, background noise in radio astronomy...And
+  * Ground radiating at night
+    * Model dry night sky as 225K ish  High emissivity
+    * Compute difference with 290K ground, should arrive at 240 ish W/m^2
+  * Greenhouse effect
+    * CO2 passes UV but absorbs and reflects back IR
+    * Serious greenhouse gas is *water*, however.  Humid night sky is more like 270K.
+
+* Sound energy
+  * compression waves in air
+  * 343 m/s
+  * https://onlinetonegenerator.com/
+     * 60 Hz
+     * 1000 Hz
+     * Math for 1 Hz wave.  $sin(t)?  sin(\tau t)$
+     * Math for 440 Hz: $sin(440\tau t)$
+     * Discuss intuition behind $sin(\alpha) + sin(\beta) = 2 sin(\frac{\alpha + \beta}{2})cos(\frac{\alpha-\beta}{2})$
+     * 440 Hz AND 441 Hz
+     * Play interference pattern of 440 and various other tones
+     * Concept of overtones.
+   * Speed in different media:
+     * Drops with air temperature, as sqrt of K.  So at 390K vs 360K (cold winter day) $\sqrt{360}{390}(343) = .96(343) = 330$
+        * Why sqrt?  Temperature is *kinetic energy* of the molecules.
+     * In water: 1500 m/s.
+   * Energy of sound
+     * W/m^2 just like light, but very small.  Jet engine is 1 W/m^2
+     * Ear can, theoretically, hear at $10^{-12}w/m^2$
+     * Logarithmic scale, starting at 0
+        * Originall by 1's and named after AG Bell!
+        * Refined to go by tens, thus "deci"bel, abbr dB
+        * 50dB quiet office; 60dB
+        * Show examples
+        * Jet engine at 120 is 1 W/m^2; gun shot (briefly) is ??
+        * Major rocket launch (e.g. starship booster) is 150 dB.  
+           * Watts/m^2 is?
+           * Need to scatter it with water spray to avoid damage (as Musk found out after first starship launch!)
+     * Speaker power
+        * "100 W" speaker is the input power.  1-5% efficiency to sound.  
+        * Say 3W.  How "loud" at perhaps 2m?
+        * Why so inefficient?  
+           * "Impedance mismatch" concept, intuitively
+           * Wave hand back and forth in air... in water..  Energy to move hand vs contributed to water...
+           * Example of "horn" speaker, or just cupped hands
+
+           
+   
+
   
 
 
