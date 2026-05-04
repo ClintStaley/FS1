@@ -1,4 +1,4 @@
-# Homework on Heat, Electric, and Kinetic Energy
+# Homework on Heat, Light, and Sound
 In the following assignments:
 
   * Use $10 m/s^2$ for g, except when otherwise indicated
@@ -9,51 +9,8 @@ In the following assignments:
   * In all work, express angles in radians.
 
 ### Basic
+1. An airliner travelling at 35,000 feet can move s
 
-1. So let's start with the promised experiment to heat Lake Erie (volume $4.84x10^{14}L$) with a 1 megaton detonation, presumably under water so that all the energy transfers to the lake as heat.  How much will the lake temperature rise?
-
-**Ans: $4.2e18/4.84e14J = 8678 J/kg;  8678/4184 = 2.07 \degree C$**
-
-2. Answer the same question for that detonation in a volume of air 10km on a side.  (Density of air is $1.23 kg/m^s$).  That volume of air is about twice the volume of Lake Erie, yet you should arrive at a much greater temperature increase.  Explain why -- there are two major reasons.
-
-**Ans: $4.2x10^{18}/1.23(1x10^4)^3 = 3.415x10^6 J/kg; 3.415x10^6/1000 = 3,415 \degree C$**
-
-**Increase is higher due to lower density of air and to lower specific heat of air.**
-
-3. Compute the thermal mass of the water in a 200L water heater and show that value, with correct units.  
-
-   Using this thermal mass figure, compute the cost to heat the water 30C via electricity at $\$0.15/kwh$ and via gas at $\$1.25/therm$. Assume the electrical power translates to heat directly since the heating element is immersed in water, while the gas is only 70% efficient since some heat is lost to the exhaust going up the chimney pipe of the water heater.
-
-   Assuming the electric version of the heater is plugged into a 240V socket, delivering 15A, how long will it take to heat up the water?  Assuming the gas heater runs at 40,000BTU/hr (that's how they're rated -- you get to translate that to useful units) how long will it take?
-
-   a. Thermal mass:\
-   b. Energy to heat by 30C:\
-   c. Electric cost:\
-   d. Gas cost at 70% efficiency:\
-   e. Electric heating time:\
-   f. Gas heater power in useful units:\
-   g. Gas heating time:
-
-**Thermal mass is $200(1484) = 2.97x10^5 J/\degree C$**\
-**Heating by 30C requires $(30)2.97x10^5 J/\degree C = 8.9x10^6J$**\
-**Electric cost: $8.9x10^6J/3.6x10^6J = 2.47kwh = \$0.37$**\
-**Gas cost: $8.9x10^6J/((.7)1.055x10^8J)=.121therms = \$0.15$**\
-**Electric heating time: $8.9x10^6J/(240(15))W = 2472s = 41.2min$**\
-**Gas heater in watts: 40,000 BTU/hr = 40000(1056)/3600 =  11,733W**\
-**Gas heating time: 8.9x10^6/(.7(11733)) = 1084s = 18min**
-
-4. A Li-ion battery masses 10kg and can deliver electrical power at 30V and 25A for 4 hours. (This amounts to several kwh, as you'll find.)
-
-   * If the energy in the battery is used to lift the battery against gravity, how far up can it lift itself with its own energy? 
-
-   * If the energy instead accelerates the battery horizontally, how fast can it make the battery go, ignoring air resistance?
-
-   * Gasoline has an energy of $4.45x10^7J/kg$.  How does this compare with the energy per kg of the battery?
-
-**Energy in battery = $30(24)(4))(3600)J = 1.08x10^7J$**\
-**Lift requires 100J/m so 1.08x10^5m or 1080km**\
-**KE is $(.5)(10)v^2 = 1.08x10^7; v^2 = 21600000; v = 1470m/s$**\
-**Battery has $1.08x10^7/10 = 1.08x10^6J/kg$** Gas has 41-42x the J/kg**
 
 ### Bronze
 5. A hydroelectric dam has water at a height of 150m.  This water drives a generator at the base of the dam, and flows through the generator at 300m^3/second.  How many joules of energy does each m^3 of water provide, and what is the power output of the generator, assuming it's 80% efficient?

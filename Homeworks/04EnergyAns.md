@@ -38,7 +38,7 @@ In the following assignments:
 **Heating by 30C requires $(30)8.37x10^5 J/\degree C = 2.51x10^7J$**\
 **Electric cost: $2.51x10^7J/3.6x10^6J = 6.97kwh = \$1.05$**\
 **Gas cost: $2.51x10^7J/((.7)1.055x10^8J)=.340therms = \$0.425$**\
-**Electric heating time: $2.51x10^7J/(240(15))W = 6972 = 116min$**\
+**Electric heating time: $2.51x10^7J/(240(15))W = 6972s = 116min$**\
 **Gas heater in watts: 40,000 BTU/hr = 40000(1056)/3600 =  11,733W**\
 **Gas heating time: 2.51x10^7J/(.7(11733)) = 3056s = 51min**
 

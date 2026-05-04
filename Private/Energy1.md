@@ -10,9 +10,6 @@ A residential swimming pool is 2mx5mx3m in volume.
 ```
 
 
+
 ```
    b. If we heat it with a 10kW heating element, and assuming no loss of heat to the surroundings, how long does it take to warm by $1\degree C$?
-
-**a: $30m^3 = 3x10^4kg, 3x10^4(4184) = 1.255x10^8$**
-
-**b: 1.255x10^8/10,000 = 1.255x10^4s = 3.49hrs**
