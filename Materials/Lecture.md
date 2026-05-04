@@ -294,6 +294,7 @@
    * kiloton
       * Nominally 1,000 tons of TNT
       * Formally, 4.2x10^12J
+   * (Note these carefully for homework exercises)
 * Kinetic energy
    * If a kg is moving 10m/s, how far up can it go on a ramp?
    * Reason out that it's the square of the velocity
@@ -402,13 +403,18 @@
     * Examples of colors, incl yellow
     * MS Paint
     * CMYK vs RGB
-    * What if we could see more colors (like shrimp)
+    * Limits on our vision
+       * Different shade-resolution in e.g. green vs blue
+       * Like having ears detecting only three pitches
+       * What if we could see more colors (like shrimp)
   * "Blackbody radiation"
     * Different ways to transfer head: conduction, convection, radiation
     * Why ground can get colder than air at night
     * Why 22C can feel cold in a house with cold walls
-    * Experiment of our body, say 1.75m^2.  Radiation rule $W/m^2 = \epsilon 5.67x10^{-8}T^4, \epsilon = .95, T = 305K$ **466W/m^2, 816W total. 
+    * Radiation rule $W/m^2 = \epsilon 5.67x10^{-8}T^4
+    * Try our body heat: \epsilon = .95, T = 305K$ **466W/m^2, 816W total. 
     * Background of 295K instead? *Incoming is 714W, difference about 100W*
+    * Body area say 1.75m^2.  
   * Cosmic background of about 2.73K, leftover from big bang.  Watts/m^2? **3.15x10^-6 W/m^2**
     * 1964, background noise in radio astronomy...And
   * Ground radiating at night
@@ -430,36 +436,90 @@
      * 440 Hz AND 441 Hz
      * Play interference pattern of 440 and various other tones
      * Concept of overtones.
-   * Speed in different media:
-     * Drops with air temperature, as sqrt of K.  So at 390K vs 360K (cold winter day) $\sqrt{360}{390}(343) = .96(343) = 330$
-        * Why sqrt?  Temperature is *kinetic energy* of the molecules.
-     * In water: 1500 m/s.
+   * Speed of sound in a gas:
+     * Pressure wave is driven by speed of the molecules, roughly speaking.
+     * Temperature is proportional to kinetic energy of the molecules, so...
+     * Drops with air temperature, as *sqrt of K* since that's how speed changes with temperature.  So at 390K vs 360K (cold winter day) $\sqrt{360}{390}(343) = .96(343) = 330$
+     * But speed at a given temperature is affect by mass of molecules,... how?
+        * inverse sqrt of mass.  4x mass, 1/2 speed.
+     * Helium molecules have .138 mass of air molecules.  So..
+        * He speed is $sqrt{1/.138} = 2.7$ of air, and speed of sound in He is 924 m/s.  
+        * Higher pitch of voice is because resonant waves in your sinuses move 2.7 times as fast and thus have 2.7 times frequency.
+     * What about heavier molecules?
+        * SF6 (5x air) demonstration: https://www.youtube.com/watch?v=u19QfJWI1oQ
+        * See homework for more, and note bouyancy discussion to come and chemistry discussion to come.
+     * Speed of sound in fluid or solid
+        * Different factors, since molecules are in contact.
+        * Based on density of the molecules, and forces between them.  * Imagine balls of different mass connected by springs of different stiffness. 
+        * Very precisely understood, but more than this approximation requires advanced physics or physical chemistry.
+        * Water: 1500 m/s.
    * Energy of sound
      * W/m^2 just like light, but very small.  Jet engine is 1 W/m^2
      * Ear can, theoretically, hear at $10^{-12}w/m^2$
-     * Logarithmic scale, starting at 0
+     * Logarithmic scale, starting at 0 for $10^{-12}w/m^2$
         * Originally by 1's and named after AG Bell!
         * Refined to go by tens, thus "deci"bel, abbr dB
-        * 50dB quiet office; 60dB
+        * 50dB quiet office; 60dB conversation...
         * Show examples
-        * Jet engine at 120 is 1 W/m^2; gun shot (briefly) is ??
+        * Jet engine at 120dB is 1 W/m^2
         * Major rocket launch (e.g. starship booster) is 150 dB.  
-           * Watts/m^2 is?
+           * Watts/m^2 is? <1000, like sunlight, but in physical form>
            * Need to scatter it with water spray to avoid damage (as Musk found out after first starship launch!)
      * Speaker power
         * "100 W" speaker is the input power.  1-5% efficiency to sound.  
-        * Say 3W.  How "loud" at perhaps 2m?
+        * Say 3W *output*.  How "loud" at perhaps 2m?
+           * sphere area is $2\tau r^2$ (thus 12.56 "steradians")
+           * $\tau r^2 = 6.28(4) \approx 25$ for half sphere
+           * So, $3/25 = .12 W/m = -.921 bels or 19.21 decibels below the nominal 120 dB: 110.8 dB.  Still pretty loud!
         * Why so inefficient?  
            * "Impedance mismatch" concept, intuitively
            * Wave hand back and forth in air... in water..  Energy to move hand vs contributed to water...
            * Example of "horn" speaker, or just cupped hands
      * Sonic boom concepts
+        * Wake of boat
+        * pressure wave develops when moving faster than the wave speed.
+        * Sonic boom is *constant* -- draw picture
+        * Mach number is relative to speed of sound *in the context*
  * Nuclear/atomic energy
-   * Periodic table and atomic structure
+   * Periodic table and atomic structure (handout)
+      * Nucleus of protons and neutrons, in balance, with neutrons on average slightly more.  Strong force holds together
+      * "Orbiting" electrons.  (Recall definition of 1 coulomb)
    * Neutron/proton balance and atomic weight in atomic units
-   * Why atomic weight not an integer? 
+   * Why is atomic weight not an integer? 
       * Isotopes.  Carbon as example. C12, C13, C14
-      * Radioactive decay.  C14 has "too many neutrons", so beta emission
+      * Hydrogen as another: H, H2 D, H3 T
+      * Some are stable; some are not (C14, H3)
+   * Radioactive decay.  
+      * C14 has "too many neutrons", so **beta emission** to N14, stable.
+      * Uranium as another example, this time of **alpha emission**
+         * U92/238 = .387 p/n; Th90/234 = .385 p/n... 
+         * Decay chain picture
+      * Concept of "half life"
+   * Helium story
+      * Almost all radioactive emitted
+      * Bonds with nothing as noble gas
+      * Works its way upward from internal planet, captured by impermeable rock.
+      * Eventually leaves atmosphere, and possibly solar system
+   * Fission energy
+      * Certain elements are fissionable, notably U235 and Pu239
+      * Fission process -- extra neutrons trigger more fissions, etc.
+      * Smaller resultant atoms have lower energy
+      * Massive energy released by the fission, and also because the split atoms are themselves often highly unstable (too many neutrons) and rapidly do beta emission.
+      * Result is "witches brew" of isotopes of varying radioactivity
+   * Nuclear fallout
+      * Dangerous roughly corresponds to fast-decaying
+      * 7/10 rule wrt fallout.
+      * Certain elements: sr90 and Cs137 are slower emitters (roughly 30 yrs halflife) 
+      * Beta emission not too dangerous in environment but dangerous if ingested into bone or cells
+   * Fusion energy
+     * Smaller into larger
+     * Also releases energy.  (Iron/nickel at the bottom, which is partly why they're common)
+     * Example for fusion reactor: D-2 + T-3 → He-4 + n + 17.6 MeV
+     * How sun works, though more complex buildup
+     * How "hydrogen bomb" works also.
+   
+   
+
       
 
            

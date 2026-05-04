@@ -67,7 +67,7 @@ In the following assignments:
 **b. Hopefully here, and certainly for c, they see that the acceleration reduces proportionally with r since v and r both reduce, e.g. by 2/3 at his head, but in $\frac{v^2}{r}$ the squared effect on v means the acceleration also reduces by 2/3.  Whether by this argument, or just banging out the math, they should arrive at 6.67 m/s^2 at his head**\
 **c. See b above.  They should reach this conclusion by some reasoning approximating what I indicate above.**\
 **d. Makes a big difference.  Along wheel direction he gets $\frac{(7.75+2)^2}{6} = 15.8 m/s^2$. Opposite gets $\frac{(7.75-2)^2}{6} = 5.5 m/s^2$**
-**e. Similar reasoning to d means left ear gets 12.7 m/s^2 while right gets 7.6 m/s^2.  Accept reasonable answer on the "feel" but the best one is that his left ear feels like it's being accelerated up, and the right like it's being accelerated down, so he will feel like the floor is turning sharply downward to the right.  It will certainly affect his balance.**
+**e. Similar reasoning to d with v of 4.17/6.17 and r of 4 (ears are higher) means left ear gets 9.52 m/s^2 while right gets 4.35 m/s^2.  Accept reasonable answer on the "feel" but the best one is that his left ear feels like it's being accelerated up, and the right like it's being accelerated down, so he will feel like the floor is turning sharply downward to the right.  It will certainly affect his balance.**
 
 6. Centripetal force equation $\frac{v^2}{r}$ is useful if we know the speed v.  But what if we only know instead the rate of rotation expressed in radians/sec.  This is called "angular velocity" and is often designated $\omega$.  For instance $\omega = 6.28$ means doing a full rotation every second.
 
