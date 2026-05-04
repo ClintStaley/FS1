@@ -423,7 +423,31 @@
   * Greenhouse effect
     * CO2 passes UV but absorbs and reflects back IR
     * Serious greenhouse gas is *water*, however.  Humid night sky is more like 270K.
-
+  * Quanta
+    * Light waves and particles.  Hard to visualize; think packets of waves.
+    * Energy from light comes in "quanta" of energy, with size related to frequency -- higher frequency, higher size.
+    * eV unit $1.6x10^{-19}J$: one electron across a volt vs one coulomb across a volt.
+    * $E = 1240\\lambda$ with E in eV and wavelength in nm.
+    * Red light at ~700nm : 1240/700 = 1.77eV
+    * Violet light at ~400nm: 1240/400 = 3.1eV
+    * High gamma: 1x10^-6 nm, 1240/10^-6 = 1.24x10^9 eV (1.24 Gev)
+    * Doesn't restrict W/m^2 -- just takes more or fewer quanta.
+* Aside on relativistic light effects
+  * Galilean relativity concept: motion is relative
+  * Observing a wave in a medium lets you know if you're moving relative to the medium.
+  * Sound, water waves, etc move through media.  Light was thought to move through an invisible "ether".
+  * Michelson-Morley experiment showed there was no ether; light moves through space.
+  * But... Does this mean we can observe a light beam and see if we're moving *relative to space itself*? No, for same reason there is no ether.
+  * **A given beam of light appears to move at the same speed C even to two relatively-moving observers
+  * Train experiment
+     * Train moves at 50 m/s.  Standing on it you throw ball forward at 50 m/s
+     * You observe ball moving relative to you; person on track sees it relative to them.
+     * BUT, if it's a train moving at 1/2 C, and you shine a light foward, both see it as C!!!
+     * How possible?  From track observer, *you* are moving slower and are compressed in dimension
+     * He thinks you see the light as C because of this distortion.
+   * Dimension and time themselves are relative!
+   * Side effect we lack math for says E = MC^2.  
+     * Joules in a kg of water: 1(3x10^8)^2 = 9x10^16J -- 80 megatons.
 * Sound energy
   * compression waves in air
   * 343 m/s
@@ -510,13 +534,17 @@
       * Dangerous roughly corresponds to fast-decaying
       * 7/10 rule wrt fallout.
       * Certain elements: sr90 and Cs137 are slower emitters (roughly 30 yrs halflife) 
-      * Beta emission not too dangerous in environment but dangerous if ingested into bone or cells
+         * Beta emission not too dangerous in environment but dangerous if ingested into bone or cells
    * Fusion energy
-     * Smaller into larger
+     * Smaller atoms into larger
      * Also releases energy.  (Iron/nickel at the bottom, which is partly why they're common)
      * Example for fusion reactor: D-2 + T-3 → He-4 + n + 17.6 MeV
      * How sun works, though more complex buildup
      * How "hydrogen bomb" works also.
+     * Original atoms at big bang almost all H (74%) or He (24%) plus some H2, Li, Be, B.
+     * All others form by some form of fusion in stars or more energetic phenomena
+        * Gold ring formed in collision of two neutron stars, most likely
+   
    
    
 
