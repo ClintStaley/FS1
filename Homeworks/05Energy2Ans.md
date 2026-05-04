@@ -34,13 +34,13 @@ In the following assignments:
    f. Gas heater power in useful units:\
    g. Gas heating time:
 
-**Thermal mass is $200(4184) = 8.37x10^5 J/\degree C$**\
-**Heating by 30C requires $(30)8.37x10^5 J/\degree C = 2.51x10^7J$**\
-**Electric cost: $2.51x10^7J/3.6x10^6J = 6.97kwh = \$1.05$**\
-**Gas cost: $2.51x10^7J/((.7)1.055x10^8J)=.340therms = \$0.425$**\
-**Electric heating time: $2.51x10^7J/(240(15))W = 6972 = 116min$**\
+**Thermal mass is $200(1484) = 2.97x10^5 J/\degree C$**\
+**Heating by 30C requires $(30)2.97x10^5 J/\degree C = 8.9x10^6J$**\
+**Electric cost: $8.9x10^6J/3.6x10^6J = 2.47kwh = \$0.37$**\
+**Gas cost: $8.9x10^6J/((.7)1.055x10^8J)=.121therms = \$0.15$**\
+**Electric heating time: $8.9x10^6J/(240(15))W = 2472s = 41.2min$**\
 **Gas heater in watts: 40,000 BTU/hr = 40000(1056)/3600 =  11,733W**\
-**Gas heating time: 2.51x10^7J/(.7(11733)) = 3056s = 51min**
+**Gas heating time: 8.9x10^6/(.7(11733)) = 1084s = 18min**
 
 4. A Li-ion battery masses 10kg and can deliver electrical power at 30V and 25A for 4 hours. (This amounts to several kwh, as you'll find.)
 
