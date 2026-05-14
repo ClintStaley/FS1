@@ -12,11 +12,11 @@ In the following assignments:
 
 1. So let's start with the promised experiment to heat Lake Erie (volume $4.84x10^{14}L$) with a 1 megaton detonation, presumably under water so that all the energy transfers to the lake as heat.  How much will the lake temperature rise?
 
-**Ans: $4.2e18/4.84e14J = 8678 J/kg;  8678/4184 = 2.07 \degree C$**
+**Ans: $4.2e15/4.84e14J = 8.68 J/kg;  8.68/4184 = .0021 \degree C$**
 
 2. Answer the same question for that detonation in a volume of air 10km on a side.  (Density of air is $1.23 kg/m^s$).  That volume of air is about twice the volume of Lake Erie, yet you should arrive at a much greater temperature increase.  Explain why -- there are two major reasons.
 
-**Ans: $4.2x10^{18}/1.23(1x10^4)^3 = 3.415x10^6 J/kg; 3.415x10^6/1000 = 3,415 \degree C$**
+**Ans: $4.2x10^{15}/1.23(1x10^4)^3 = 3.415x10^3 J/kg; 3.415x10^3/1000 = 3.415 \degree C$**
 
 **Increase is higher due to lower density of air and to lower specific heat of air.**
 
@@ -50,7 +50,7 @@ In the following assignments:
 
    * Gasoline has an energy of $4.45x10^7J/kg$.  How does this compare with the energy per kg of the battery?
 
-**Energy in battery = $30(24)(4))(3600)J = 1.08x10^7J$**\
+**Energy in battery = $30(25)(4))(3600)J = 1.08x10^7J$**\
 **Lift requires 100J/m so 1.08x10^5m or 1080km**\
 **KE is $(.5)(10)v^2 = 1.08x10^7; v^2 = 21600000; v = 1470m/s$**\
 **Battery has $1.08x10^7/10 = 1.08x10^6J/kg$** Gas has 41-42x the J/kg**
@@ -65,12 +65,12 @@ In the following assignments:
 6. Order these three things by thermal mass, from high to low, giving their actual thermal masses.  1) A 500ml bottle of water 2) a 2kg cast iron paperweight 3) the air in a 2mx2mx2m room.  
 
 **Air: $8m^3*1.23kg/m^3(1000J/kg \degree C) = 9840  J/\degree C$**\
-**Water: $.5kg(4184J/m^3 \degree C) = 2092J/ \degree C$**\
+**Water: $.5kg(4184J/m^3 \degree C) = 2092 J/ \degree C$**\
 **Iron: $2(450J/kg \degree C) = 900 J/ \degree C$**
 
-7. You make an igloo that is 500cm thick and 1.5m in radius.  Assuming heat loss through the thick snow below you is negligible, the only heat lost will be fron the half-sphere of snow of thermal conductivity .1 comprising the igloo.  Recall that the area of a full sphere is $2\tau r^2$.  Outside, it's -40C, but you want an internal temperature of 0C, which is liveable with good clothing.  How many watts of power do you need in the igloo to do this?  (And, note, you personally generate 100W of power moving around inside it).  
+7. You make an igloo that is 50cm thick and 1.5m in internal radius.  Assuming heat loss through the thick snow below you is negligible, the only heat lost will be fron the half-sphere of snow of thermal conductivity .1 comprising the igloo.  Recall that the area of a full sphere is $2\tau r^2$.  Outside, it's -40C, but you want an internal temperature of 0C, which is liveable with good clothing.  How many watts of power do you need in the igloo to do this?  (And, note, you personally generate 100W of power moving around inside it).  
 
-**Area: $(6.28)1.5^2(.1)(60)/.5 = 170W$**
+**Area: $(6.28)1.5^2(.1)(40)/.5 = 113.3W$**
 
 ### Silver
 
@@ -88,13 +88,13 @@ In the following assignments:
 
 **15V/.5ohm will drive 30A per ohms law.  So you'd expect 120V-15V = 105V at the outlet.  That's bad enough.  But 15*30 = 450W of power in the wire, which will heat it considerably.  Bad idea**
 
-10. Copper has a conductivity of roughly $6x10^7 \frac(A m){m^2 V}$.  From this fact, and the statement above that 15m of 20 gauge wire has 0.5 ohms of resistance, deduce the cross-sectional area of 20 gauge copper wire, in square millimeters.  (You should arrive at a value < $1 mm^2$).
+10. Copper has a conductivity of roughly $6x10^7 \frac{A m}{m^2 V}$.  From this fact, and the statement above that 15m of 20 gauge wire has 0.5 ohms of resistance, deduce the cross-sectional area of 20 gauge copper wire, in square millimeters.  (You should arrive at a value < $1 mm^2$).
 
     a. How many A/V does 0.5 ohms indicate?  
     b. How many $\frac{A m}{V}$ is that, given the 15m run.
     c. What would the $m^2$ value in the conductivity then need to be to arrive at conductivity of $6x10^7$?
 
-**$0.5\Omega = 2 \frac{A}{V}$**\
+**Ans: $0.5\Omega = 2 \frac{A}{V}$**\
 **Through 15m, that's $\frac{30 A m}{V}**\
 **$6x10^7 = \frac{30}{m^2}; m^2 = \frac{30}{6x10^7} = 5x10^{-7}m^2 = .5 mm^2$
 

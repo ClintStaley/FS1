@@ -11,70 +11,50 @@ In the following assignments:
 ### Basic
 1. An airliner travelling at 35,000 feet may fly in -50C air.  Assuming it is not designed for supersonic flight, how fast can it safely fly at that altitude?
 
-**$343 sqrt{\frac{223}{295}} = 298 m/s (671 mph)**
 
 2. The terms "pink" and "blue" noise describe sound that is slightly different from pure "white" noise.  Using the analogy of light wavelengths, describe how pink and blue noise would differ from white noise.
 
-**Red/pink waves are lower frequncy while blue are higher.  The sound analogies would be white noise with a lower pitch and a higher pitch**
 
 3. What is the wavelength of middle-A, which is 440Hz?  And what about the next higher A an octave up? What about medical ultrasound, which operates at 1MHz (give this in mm)?
 
-**343/440 = .78m$; next octave is half that at .39m**\
-**343/1E6 = 3.43E-4m = .343mm$**
-
 4. A sensor specific to blue light is used to measure blue light reflected from white paint.  A blue pigment is then added, making the paint a medium blue in color.  How would the sensor's readings before and after adding the pigment compare and why?
 
-**No effect.  There was blue light in the white; the blue pigment continued to reflect it.  A slightly more subtle answer might argue that there is less blue in the paint color if the pigment reflects blue imperfectly, but it cannot be more.**
 
 5. A wood stove with perfect blackbody-radiating paint (they usually have this -- which is why they're usually black) is a cube 50cm on a side.  If it's heated to 300C, how many watts does it radiate into the room?
 
-**Ans: $5.67x10^{-8}(300+273)^4 = 6112W/m^2; 0.5m^2(6)6112 = 9168W$**
 
 6. If that same stove were left in interstellar space, where presumably it would stop burning due to lack of air, and were allowed to cool to 57.3K, how much does it radiate then?  Do this purely by temperature ratio from the prior example (you should find that 57.3K is a nice fraction of the hotter stove temp).  Do not use the constant $5.67x10^{-8}$ in your answer at all.  And despite being 57.3K above absolute zero, you should find the whole stove radiates less than a watt.
 
-**The temperature in question is 1/10 that of the 573K from the prior question, so radiant heat is 1/10000 as much, or .917W**
 
 7. Explain why each of these news statements is scientifically inaccurate:
 
-   a. The new power plant generates 100 megawatts per year.  **Megawatts is already a rate.  Can't also be "per year"**\
-   b. A generated power of 1 million kilowatts is enough for 1000 households. **1 megawatt per home is a bit much; they likely meant 1 million watts**\
-   c. The vacuum of space is cold -- -270C. **Vacuum doesn't have a temperature**\
-   d. At orbital altitude, astronauts float weightlessly because there is no gravity.  **There's still quite a bit of gravity at LEO; astronauts are orbiting along with their surroundings**\
-   e. The transmission line provides 500 kilovolts of electrical power. **Voltage is pressure, not power.  Need amperage to know the power**\
-   f. A jet engine emits 120 dB of sound, 1000x the volume of a normal conversation. **120dB is 1 million times 60dB, a normal conversation**
+   a. The new power plant generates 100 megawatts per year.\
+   b. A generated power of 1 million kilowatts is enough for 1000 households.\
+   c. The vacuum of space is cold -- -270C.\
+   d. At orbital altitude, astronauts float weightlessly because there is no gravity.\
+   e. The transmission line provides 500 kilovolts of electrical power.\
+   f. A jet engine emits 120 dB of sound, 1000x the volume of a normal conversation.
 
 8. If you are flying at a high altitude, and a supersonic jet passes *below* you, do you still hear a sonic boom?  Why?
 
-**Yes, it radiates as a cone around the supersonic vehicle, in all directions.**
-
 9. All other things being equal, would you expect a speaker to operate more efficiently in helium than air?  What about in sulfur hexaflouride?
-
-**Would expect less efficient in helium and more in SF6 due to better impedance match**
 
 10. At a 3m distance from a loud noise, you experience 100 dB of sound energy.  This hurts your ears, and you back off to reduce the noise to 80 dB.  How far must you back off?  
 
-**Asking to reduce power by factor of 100, so need 10x the distance given r^2 reduction.  So, to 30m**
-
 11. You can choose to stand for a couple of minutes in front of a microwave source radiating at $500W/m^2$ or a gamma ray source radiating at just $.1W/m^2$.  Which would you prefer and why?
 
-**Microwave for sure.  500W/m^2 is half the intensity of sunlight.  This will heat you a bit, but not very much.  The gamma dosage indicated could KILL you, because each of the quanta are so large they can do damage to your DNA and cells, which is not true for the microwave quanta.**
 
 ### Silver
 
-12. Proposed futuristic space colonies are sometimes very large structures, e.g. a sphere with 10000m radius.  Such a sphere, with $4x10^9 m^3$ of volume might house, say, 10 million occupants at $400m^3$ of space each.  Assume each occupant uses an average 4kw of power for electricity, growing food, etc.  If the colony is in interstellar space, and you made the skin of highly conductive metal with no insulation, would it stay warm?
+12. Proposed futuristic space colonies are sometimes very large structures, e.g. a sphere with 1000m radius.  Such a sphere, with $4x10^9 m^3$ of volume might house, say, 10 million occupants at $400m^3$ of space each.  Assume each occupant uses an average 4kw of power for electricity, growing food, etc.  If the colony is in interstellar space, and you made the skin of highly conductive metal with no insulation, would it stay warm?
 
     Address this question by figuring out what temperature the skin would need to be to radiate the heat generated by the occupants -- you should find that extra heat dissipation will be needed somehow to keep the place cool enough -- actually a common problem in space.
 
-**$1x10^7(4000) = 4x10^{10}W$ of internal power.  1000m radius gives $1.26x10^7m^2$, so 3175W/m^2.  Need a temperature of $(\frac{3175}{5.67x10^{-8}})^{0.25} = 486K or 213C$  It will definitely be warm enough, and some sort of extra heat dissipation is needed.**
 
 13. The fastest speed of sound we might find in a common gas is hot hydrogen, with a molecular weight of 2 vs 29 for air.  How hot would hydrogen need to be for a speed of sound of 1600m/s (about 1 mile/sec)?
 
-**$343 \sqrt\frac{29}{2} \sqrt\frac{T}{295} = 1600; T = (\frac{1600}{343}\sqrt\frac{2(295)}{29})^2 = 442.7K$**
 
 14. You stand in front of an audio speaker array that puts out sound in all directions uniformly.  At 3m distance, you hear 100 dB.  How many watts of sound power total is the speaker generating?
 
-**Full sphere at 3m radius has $2\tau3^2 = 113 m^2$ area.  Each $m^2$ gets .01W at 100 dB, so total wattage is 1.13W**
 
 15. The gamma radiation from a radioactive source has wavelength $10^{-14}m$.  If the radiation intensity is just $0.1 W/m^2$, how many quanta per second pass through a square millimeter of the radiated surface? (Remarkably, this is enough to sicken and even kill you in just a few minutes)
-
-**Quanta are $\frac{1240}{1x10^{-5}} = 1.24x10^8 eV = 1.98 x 10^{-11}J$.  One square mm gets $1x10^{-7}J/s$ at stated intensity.  $\frac{1x10^{-7}}{1.98x10^{-11}} = 505$ quanta/sec.**

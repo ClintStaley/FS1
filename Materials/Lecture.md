@@ -504,6 +504,9 @@
         * pressure wave develops when moving faster than the wave speed.
         * Sonic boom is *constant* -- draw picture
         * Mach number is relative to speed of sound *in the context*
+
+ **Midterm at this point**
+
  * Nuclear/atomic energy
    * Periodic table and atomic structure (handout)
       * Nucleus of protons and neutrons, in balance, with neutrons on average slightly more.  Strong force holds together

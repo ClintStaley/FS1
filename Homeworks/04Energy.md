@@ -49,7 +49,7 @@ In the following assignments:
 6. Order these three things by thermal mass, from high to low, giving their actual thermal masses.  1) A 500ml bottle of water 2) a 2kg cast iron paperweight 3) the air in a 2mx2mx2m room.  
 
 
-7. You make an igloo that is 500cm thick and 1.5m in radius.  Assuming heat loss through the thick snow below you is negligible, the only heat lost will be fron the half-sphere of snow of thermal conductivity .1 comprising the igloo.  Recall that the area of a full sphere is $2\tau r^2$.  Outside, it's -40C, but you want an internal temperature of 0C, which is liveable with good clothing.  How many watts of power do you need in the igloo to do this?  (And, note, you personally generate 100W of power moving around inside it).  
+7. You make an igloo that is 50cm thick and 1.5m in internal radius.  Assuming heat loss through the thick snow below you is negligible, the only heat lost will be fron the half-sphere of snow of thermal conductivity .1 comprising the igloo.  Recall that the area of a full sphere is $2\tau r^2$.  Outside, it's -40C, but you want an internal temperature of 0C, which is liveable with good clothing.  How many watts of power do you need in the igloo to do this?  (And, note, you personally generate 100W of power moving around inside it).  
 
 
 ### Silver
@@ -63,7 +63,7 @@ In the following assignments:
 
     A 15m run of 20 gauge wire has 0.5 ohms of resistance.  If you pull the full 30A at the plug, what do you expect the voltage drop to be from the box to the plug?  What will the remaining voltage be at the plug, assuming 120V at the box?  And, what wattage is consumed in the wire as heat?  Is this a good idea?
 
-10. Copper has a conductivity of roughly $6x10^7 \frac(A m){m^2 V}$.  From this fact, and the statement above that 15m of 20 gauge wire has 0.5 ohms of resistance, deduce the cross-sectional area of 20 gauge copper wire, in square millimeters.  (You should arrive at a value < $1 mm^2$).
+10. Copper has a conductivity of roughly $6x10^7 \frac{A m}{m^2 V}$.  From this fact, and the statement above that 15m of 20 gauge wire has 0.5 ohms of resistance, deduce the cross-sectional area of 20 gauge copper wire, in square millimeters.  (You should arrive at a value < $1 mm^2$).
 
     a. How many A/V does 0.5 ohms indicate?  
     b. How many $\frac{A m}{V}$ is that, given the 15m run.
